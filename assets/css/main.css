@@ -36,6 +36,10 @@ body {
 ol, ul {
 	list-style: none;
 }
+.lista-servicios21 {
+  list-style: disc;
+  padding-left: 20px;
+}
 
 blockquote, q {
 	quotes: none;
