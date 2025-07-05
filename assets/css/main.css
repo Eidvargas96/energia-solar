@@ -78,28 +78,29 @@ input, select, textarea {
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
-.image.fit {
+
+.image-container {
 	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.image-container img {
+	width: 100%;
 	display: block;
 }
 
-.hover-text {
+.overlay-text {
 	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	background: rgba(0,0,0,0.7);
-	color: white;
-	text-align: center;
-	padding: 8px;
-	opacity: 0;
-	transition: opacity 0.3s ease;
+	top: 10px;
+	left: 10px;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 8px 12px;
+	border-radius: 5px;
+	font-size: 1rem;
+	font-weight: bold;
 }
-
-.image.fit:hover .hover-text {
-	opacity: 1;
-}
-
 
 
 
