@@ -76,7 +76,10 @@ input, select, textarea {
 /////////////////////////////////////////////////////////////////////////////////////////
 
 
-
+ul.icons {
+	text-align: center;
+	padding: 1em 0;
+}
 
 .lista-servicios21 {
   list-style: disc;
