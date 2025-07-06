@@ -99,7 +99,7 @@ ul.icons {
 
 
 .texto-pequeno:hover {
-	filter: brightness(1.2); /* Aumenta el brillo */
+	filter: brightness(1.4); /* Aumenta el brillo */
 	color: #666;             /* (opcional) Cambia a un tono más oscuro */
 }
 
