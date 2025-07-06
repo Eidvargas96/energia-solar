@@ -952,7 +952,7 @@ ul.icons {
 		text-decoration: none;
 	}
 
-		.icon:before {
+		.texto-pequeno.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
