@@ -86,6 +86,13 @@ ul.icons {
   padding-left: 20px;
 }
 
+.texto-pequeno {
+	font-size: 0.8rem;     /* Tamaño más pequeño que el normal */
+	line-height: 1.4;       /* Espaciado cómodo entre líneas */
+	color: #666;            /* Gris suave opcional (puedes cambiarlo) */
+}
+
+
 /////////////////////////////////////////////////////////////////////////////////////
 
 /* Basic */
