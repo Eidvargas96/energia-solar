@@ -139,6 +139,8 @@
 							</div>
 							<ul class="actions special">
 								<li><input type="submit" value="Send Message" /></li>
+								<li><button type="button" onclick="enviarWhatsApp()">Enviar por WhatsApp</button></li>
+
 							</ul>
 						</form>
 					</div>
@@ -176,6 +178,24 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+/////////////////
+<script>
+  function enviarWhatsApp() {
+    const nombre = document.querySelector('input[name="name"]').value;
+    const email = document.querySelector('input[name="email"]').value;
+    const mensaje = document.querySelector('textarea[name="message"]').value;
 
+    const texto = `Hola, mi nombre es ${nombre}. Estoy interesado(a) en un sistema solar. 
+Email: ${email}. 
+Mensaje: ${mensaje}`;
+
+    const numeroWhatsApp = '573001112233'; // Reemplaza por tu número real
+
+    const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`;
+    
+    window.open(url, '_blank');
+  }
+</script>
+//////////////
 	</body>
 </html>
