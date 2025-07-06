@@ -89,7 +89,7 @@ ul.icons {
 .texto-pequeno {
 	font-size: 0.8rem;     /* Tamaño más pequeño que el normal */
 	line-height: 1.4;       /* Espaciado cómodo entre líneas */
-	color: #666;            /* Gris suave opcional (puedes cambiarlo) */
+	color: #99;            /* Gris suave opcional (puedes cambiarlo) */
 	max-width: 600px;      /* Limita el ancho del texto */
 	margin: 0 auto;        /* Centra el texto horizontalmente */
 	text-align: justify;   /* O usa "left" o "center" según prefieras */
