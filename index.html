@@ -1,662 +1,843 @@
-<!DOCTYPE HTML>
-<!--
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.className+=' js';</script>
 
-		<!-- Lo que aparece en Google -->
-		<title>Casa Solar | Paneles solares en Bogotá, Medellín y Bucaramanga</title>
-		<meta name="description" content="Diseño e instalación de sistemas solares On-Grid, Off-Grid e híbridos en Bogotá, Medellín, Bucaramanga y Cundinamarca. Cotiza por WhatsApp.">
-		<meta name="keywords" content="paneles solares, energía solar, sistema híbrido, on grid, off grid, instalación solar, Bogotá, Medellín, Bucaramanga, Cundinamarca, Anapoima, Girardot, Facatativá, Casa Solar">
-		<meta name="author" content="Eid Vargas">
-		<meta name="robots" content="index, follow, max-image-preview:large">
-		<link rel="canonical" href="https://eidvargas96.github.io/energia-solar/" />
+<!-- Lo que aparece en Google -->
+<title>Casa Solar | Paneles solares en Bogotá, Medellín y Bucaramanga</title>
+<meta name="description" content="Diseño e instalación de sistemas solares On-Grid, Off-Grid e híbridos en Bogotá, Medellín, Bucaramanga y Cundinamarca. Cotiza por WhatsApp.">
+<meta name="keywords" content="paneles solares, energía solar, sistema híbrido, on grid, off grid, instalación solar, Bogotá, Medellín, Bucaramanga, Cundinamarca, Anapoima, Girardot, Facatativá, Casa Solar">
+<meta name="author" content="Eid Vargas">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0E2C3C">
+<link rel="canonical" href="https://eidvargas96.github.io/energia-solar/">
 
-		<!-- Lo que se ve al compartir el enlace en Facebook, WhatsApp e Instagram -->
-		<meta property="og:type" content="website">
-		<meta property="og:locale" content="es_CO">
-		<meta property="og:site_name" content="Casa Solar">
-		<meta property="og:title" content="Casa Solar | Paneles solares en Bogotá, Medellín y Bucaramanga">
-		<meta property="og:description" content="Sistemas solares On-Grid, Off-Grid e híbridos para tu hogar, finca o negocio. Cotiza por WhatsApp.">
-		<meta property="og:url" content="https://eidvargas96.github.io/energia-solar/">
-		<meta property="og:image" content="https://eidvargas96.github.io/energia-solar/images/og-casa-solar.jpg">
-		<meta property="og:image:width" content="1200">
-		<meta property="og:image:height" content="630">
-		<meta property="og:image:alt" content="Casa Solar: paneles solares en Bogotá, Medellín, Bucaramanga y Cundinamarca">
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:title" content="Casa Solar | Paneles solares en Bogotá, Medellín y Bucaramanga">
-		<meta name="twitter:description" content="Sistemas solares On-Grid, Off-Grid e híbridos. Cotiza por WhatsApp.">
-		<meta name="twitter:image" content="https://eidvargas96.github.io/energia-solar/images/og-casa-solar.jpg">
+<!-- Lo que se ve al compartir el enlace en Facebook, WhatsApp e Instagram -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta property="og:site_name" content="Casa Solar">
+<meta property="og:title" content="Casa Solar | Paneles solares en Bogotá, Medellín y Bucaramanga">
+<meta property="og:description" content="Sistemas solares On-Grid, Off-Grid e híbridos para tu hogar, finca o negocio. Cotiza por WhatsApp.">
+<meta property="og:url" content="https://eidvargas96.github.io/energia-solar/">
+<meta property="og:image" content="https://eidvargas96.github.io/energia-solar/images/og-casa-solar.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Casa Solar: paneles solares en Bogotá, Medellín, Bucaramanga y Cundinamarca">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Casa Solar | Paneles solares en Bogotá, Medellín y Bucaramanga">
+<meta name="twitter:description" content="Sistemas solares On-Grid, Off-Grid e híbridos. Cotiza por WhatsApp.">
+<meta name="twitter:image" content="https://eidvargas96.github.io/energia-solar/images/og-casa-solar.jpg">
 
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="icon" type="image/png" href="images/favicon.png" />
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-		<!-- Datos estructurados: le dicen a Google qué ofreces y dónde -->
-		<script type="application/ld+json">
+<!-- Tipografía Inter (se carga sin bloquear la página) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
+
+<!-- Datos estructurados: le dicen a Google qué ofreces y dónde -->
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@graph": [
 		{
-			"@context": "https://schema.org",
-			"@graph": [
-				{
-					"@type": "Organization",
-					"@id": "https://eidvargas96.github.io/energia-solar/#organizacion",
-					"name": "Casa Solar",
-					"url": "https://eidvargas96.github.io/energia-solar/",
-					"image": "https://eidvargas96.github.io/energia-solar/images/og-casa-solar.jpg",
-					"description": "Diseño e instalación de sistemas solares On-Grid, Off-Grid e híbridos para hogares, fincas y negocios.",
-					"contactPoint": {
-						"@type": "ContactPoint",
-						"telephone": "+573014938903",
-						"contactType": "customer service",
-						"availableLanguage": "es",
-						"areaServed": "CO"
-					},
-					"areaServed": [
-						{ "@type": "City", "name": "Bogotá" },
-						{ "@type": "City", "name": "Medellín" },
-						{ "@type": "City", "name": "Bucaramanga" },
-						{ "@type": "City", "name": "Anapoima" },
-						{ "@type": "City", "name": "Girardot" },
-						{ "@type": "City", "name": "Facatativá" },
-						{ "@type": "AdministrativeArea", "name": "Cundinamarca" }
-					],
-					"sameAs": [
-						"https://www.facebook.com/share/1ER5o82gFC/",
-						"https://www.instagram.com/eiderinthejob"
-					]
-				},
-				{
-					"@type": "Service",
-					"@id": "https://eidvargas96.github.io/energia-solar/#servicio",
-					"name": "Instalación de sistemas solares fotovoltaicos",
-					"serviceType": "Diseño e instalación de sistemas solares On-Grid, Off-Grid e híbridos",
-					"url": "https://eidvargas96.github.io/energia-solar/",
-					"provider": { "@id": "https://eidvargas96.github.io/energia-solar/#organizacion" },
-					"areaServed": [
-						{ "@type": "City", "name": "Bogotá" },
-						{ "@type": "City", "name": "Medellín" },
-						{ "@type": "City", "name": "Bucaramanga" },
-						{ "@type": "City", "name": "Anapoima" },
-						{ "@type": "City", "name": "Girardot" },
-						{ "@type": "City", "name": "Facatativá" },
-						{ "@type": "AdministrativeArea", "name": "Cundinamarca" }
-					]
-				}
+			"@type": "Organization",
+			"@id": "https://eidvargas96.github.io/energia-solar/#organizacion",
+			"name": "Casa Solar",
+			"url": "https://eidvargas96.github.io/energia-solar/",
+			"logo": "https://eidvargas96.github.io/energia-solar/images/icono-casa-solar.png",
+			"image": "https://eidvargas96.github.io/energia-solar/images/og-casa-solar.jpg",
+			"description": "Diseño e instalación de sistemas solares On-Grid, Off-Grid e híbridos para hogares, fincas y negocios.",
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"telephone": "+573014938903",
+				"contactType": "customer service",
+				"availableLanguage": "es",
+				"areaServed": "CO"
+			},
+			"areaServed": [
+				{ "@type": "City", "name": "Bogotá" },
+				{ "@type": "City", "name": "Medellín" },
+				{ "@type": "City", "name": "Bucaramanga" },
+				{ "@type": "City", "name": "Anapoima" },
+				{ "@type": "City", "name": "Girardot" },
+				{ "@type": "City", "name": "Facatativá" },
+				{ "@type": "AdministrativeArea", "name": "Cundinamarca" }
+			],
+			"sameAs": [
+				"https://www.facebook.com/share/1ER5o82gFC/",
+				"https://www.instagram.com/eiderinthejob"
+			]
+		},
+		{
+			"@type": "Service",
+			"@id": "https://eidvargas96.github.io/energia-solar/#servicio",
+			"name": "Instalación de sistemas solares fotovoltaicos",
+			"serviceType": "Diseño e instalación de sistemas solares On-Grid, Off-Grid e híbridos",
+			"url": "https://eidvargas96.github.io/energia-solar/",
+			"provider": { "@id": "https://eidvargas96.github.io/energia-solar/#organizacion" },
+			"areaServed": [
+				{ "@type": "City", "name": "Bogotá" },
+				{ "@type": "City", "name": "Medellín" },
+				{ "@type": "City", "name": "Bucaramanga" },
+				{ "@type": "City", "name": "Anapoima" },
+				{ "@type": "City", "name": "Girardot" },
+				{ "@type": "City", "name": "Facatativá" },
+				{ "@type": "AdministrativeArea", "name": "Cundinamarca" }
 			]
 		}
-		</script>
+	]
+}
+</script>
 
-		<!--
-		Google Analytics 4 (opcional): crea la propiedad en analytics.google.com,
-		quita los comentarios de este bloque y cambia G-XXXXXXXXXX por tu ID.
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-XXXXXXXXXX');
-		</script>
-		-->
+<!--
+Google Analytics 4 (opcional): crea la propiedad en analytics.google.com,
+quita los comentarios de este bloque y cambia G-XXXXXXXXXX por tu ID.
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XXXXXXXXXX');
+</script>
+-->
 
-		<!--
-		Meta Pixel (opcional): copia el código base desde business.facebook.com > Administrador de eventos
-		y pégalo aquí. Sirve para medir y para mostrar anuncios a quien ya visitó la página.
-		-->
+<!--
+Meta Pixel (opcional): copia el código base desde business.facebook.com > Administrador de eventos
+y pégalo aquí. Sirve para medir y para mostrar anuncios a quien ya visitó la página.
+-->
 
-		<style>
-			/* ---- Añadidos de Casa Solar ---- */
+<style>
+:root{
+	--navy:#0E2C3C; --navy-2:#17435A; --navy-3:#0A2130;
+	--amber:#FFC42E; --amber-2:#F5B000;
+	--sky:#EEF5F8; --sky-2:#F7FAFC; --line:#E1E8ED;
+	--text:#3E505C; --muted:#5B6E7A; --wa:#25D366;
+	--r:20px; --r-lg:28px;
+	--shadow:0 1px 2px rgba(14,44,60,.05),0 14px 36px rgba(14,44,60,.08);
+	--wrap:1160px; --header-h:72px;
+	--font:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;font:400 17px/1.65 var(--font);color:var(--text);background:#fff;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img,svg,picture{display:block;max-width:100%}
+p{margin:0}
+a{color:var(--navy-2)}
+h1,h2,h3,h4{margin:0;color:var(--navy);line-height:1.15;letter-spacing:-.02em;font-weight:800}
+h2{font-size:clamp(1.9rem,3.6vw,2.7rem)}
+ul{margin:0;padding:0;list-style:none}
+[hidden]{display:none!important}
+:focus-visible{outline:3px solid var(--navy);outline-offset:3px;border-radius:8px}
+.on-dark :focus-visible{outline-color:var(--amber)}
+section[id],.alias{scroll-margin-top:calc(var(--header-h) + 8px)}
+main:focus{outline:none}
+.alias{display:block;height:0}
+.ico{width:1.25em;height:1.25em;flex:none;fill:currentColor}
+.ico-s{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.skip{position:absolute;left:-999px;top:8px;z-index:100;background:var(--navy);color:#fff;padding:10px 16px;border-radius:10px;font-weight:700;text-decoration:none}
+.skip:focus{left:12px}
+.wrap{width:min(var(--wrap),100% - 40px);margin-inline:auto}
 
-			/* Botón flotante de WhatsApp */
-			.wa-flotante {
-				position: fixed;
-				right: 1.25em;
-				bottom: 1.25em;
-				z-index: 10000;
-				display: flex;
-				align-items: center;
-				gap: 0.5em;
-				background: #25d366;
-				color: #ffffff !important;
-				font-weight: 900;
-				font-size: 0.95em;
-				line-height: 1;
-				padding: 0.9em 1.2em;
-				border-radius: 999px;
-				border-bottom: 0 !important;
-				text-decoration: none;
-				box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
-			}
-			.wa-flotante:before {
-				font-family: "Font Awesome 5 Brands";
-				font-weight: 400;
-				font-size: 1.6em;
-				content: "\f232";
-			}
-			.wa-flotante:hover {
-				background: #20bd5a;
-			}
+/* ---------- Botones ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:999px;border:2px solid transparent;font:700 1rem/1.2 var(--font);text-decoration:none;text-align:center;cursor:pointer;transition:transform .15s ease,box-shadow .2s ease,background .2s ease,color .2s ease}
+.btn .ico{width:1.35em;height:1.35em}
+.btn-primary{background:var(--amber);color:var(--navy);box-shadow:0 8px 22px rgba(255,196,46,.38)}
+.btn-primary:hover{background:var(--amber-2);transform:translateY(-1px)}
+.btn-dark{background:var(--navy);color:#fff}
+.btn-dark:hover{background:var(--navy-2)}
+.btn-ghost{background:transparent;color:var(--navy);border-color:var(--navy)}
+.btn-ghost:hover{background:var(--navy);color:#fff}
+.btn-light{background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.32)}
+.btn-light:hover{background:#fff;color:var(--navy)}
+.btn-sm{padding:11px 20px;font-size:.93rem;white-space:nowrap}
 
-			/* Tarjetas de zonas de atención */
-			.zonas {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-				gap: 1.5em;
-				max-width: 60em;
-				margin: 0 auto 2em auto;
-			}
-			.zona {
-				background: #ffffff;
-				border: 1px solid #e3e5e8;
-				border-radius: 0.35em;
-				padding: 1.5em 1.25em;
-			}
-			.zona h3 {
-				margin: 0 0 0.5em 0;
-			}
-			.zona p {
-				margin: 0;
-			}
+/* ---------- Cabecera ---------- */
+.hdr{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);-webkit-backdrop-filter:saturate(1.4) blur(14px);backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--line)}
+.hdr-in{min-height:var(--header-h);display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.brand{display:block;width:176px;flex:none;border-radius:8px}
+.brand svg{width:100%;height:auto}
+.nav{margin-left:auto;display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.nav a{padding:10px 14px;border-radius:999px;color:var(--navy);font-weight:600;font-size:.95rem;text-decoration:none}
+.nav a:not(.btn):hover{background:var(--sky)}
+.nav .btn{margin-left:8px;color:var(--navy)}
+.menu-btn{display:none;margin-left:auto;width:46px;height:46px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--navy);cursor:pointer;align-items:center;justify-content:center}
+.menu-btn .ico{width:24px;height:24px}
+.menu-btn .i-close{display:none}
+.menu-btn[aria-expanded="true"] .i-open{display:none}
+.menu-btn[aria-expanded="true"] .i-close{display:block}
 
-			/* Listas más legibles en las secciones claras (Contacto) */
-			.main.style3 .lista-servicios21 {
-				text-align: left;
-				max-width: 44em;
-				margin: 0 auto 1.5em auto;
-			}
+/* ---------- Secciones ---------- */
+.sec{padding:96px 0}
+.sec-sky{background:var(--sky)}
+.sec-head{max-width:760px;margin:0 0 44px}
+.sec-head.center{margin-inline:auto;text-align:center}
+.chip{display:inline-block;margin-bottom:18px;padding:8px 14px;border-radius:999px;background:var(--amber);color:var(--navy);font:700 .76rem/1 var(--font);letter-spacing:.07em;text-transform:uppercase}
+.lead{margin-top:16px;font-size:1.14rem}
+.reveal{transition:opacity .6s ease,transform .6s ease}
+.js .reveal{opacity:0;transform:translateY(16px)}
+.js .reveal.in{opacity:1;transform:none}
 
-			/* Deja espacio al final para que el botón flotante no tape el pie de página */
-			#footer {
-				padding-bottom: 6em;
-			}
+/* ---------- Inicio ---------- */
+.hero{position:relative;overflow-x:clip;background:radial-gradient(900px 520px at 88% -6%,rgba(255,196,46,.20),transparent 62%),linear-gradient(180deg,var(--sky-2),#fff 78%)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:56px;align-items:center;padding:64px 0 84px}
+.hero h1{font-size:clamp(2.35rem,4.9vw,3.75rem);letter-spacing:-.03em;line-height:1.06}
+.hero .lead{max-width:34em;font-size:1.18rem}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+.hero-chips{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:34px;color:var(--muted);font-size:.9rem;font-weight:600}
+.hero-chips a{display:inline-block;padding:8px 16px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--navy);font-weight:700;text-decoration:none;transition:border-color .2s,transform .15s}
+.hero-chips a:hover{border-color:var(--navy);transform:translateY(-1px)}
+.hero-media{position:relative;justify-self:end;width:min(100%,470px)}
+.hero-media .sun{position:absolute;top:-8%;right:-16%;width:72%;aspect-ratio:1;border-radius:50%;background:var(--amber)}
+.hero-photo{position:relative;margin:0;border-radius:var(--r-lg);overflow:hidden;box-shadow:0 30px 60px rgba(14,44,60,.25);border:6px solid #fff;background:var(--navy)}
+.hero-photo img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 46%}
+.float-card{position:absolute;left:-30px;bottom:34px;display:flex;align-items:center;gap:12px;padding:14px 18px;background:#fff;border-radius:18px;box-shadow:0 16px 36px rgba(14,44,60,.2);max-width:calc(100% - 20px)}
+.float-card .pin{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--amber);color:var(--navy);flex:none}
+.float-card small{display:block;font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.float-card b{display:block;color:var(--navy);font-size:.92rem;line-height:1.3}
 
-			/* Preguntas frecuentes */
-			.faq {
-				max-width: 44em;
-				margin: 0 auto 2em auto;
-				text-align: left;
-			}
-			.faq details {
-				background: #ffffff;
-				border: 1px solid #e3e5e8;
-				border-radius: 0.35em;
-				padding: 1em 1.25em;
-				margin-bottom: 0.75em;
-			}
-			.faq summary {
-				cursor: pointer;
-				font-weight: 900;
-			}
-			.faq details p {
-				margin: 0.75em 0 0 0;
-			}
+/* ---------- Servicios y alcances ---------- */
+.svc-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:28px;align-items:stretch}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow);padding:34px}
+.card h3{font-size:1.5rem;margin-bottom:18px}
+.checks li{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-top:1px solid var(--line);color:var(--navy);font-weight:500}
+.checks li:first-child{border-top:0;padding-top:4px}
+.checks .tick{display:grid;place-items:center;width:28px;height:28px;margin-top:1px;border-radius:50%;background:var(--amber);color:var(--navy);flex:none}
+.checks .tick .ico{width:16px;height:16px}
+.card-navy{background:linear-gradient(160deg,var(--navy),var(--navy-2));border:0;color:rgba(255,255,255,.82);box-shadow:0 24px 50px rgba(14,44,60,.28)}
+.card-navy h3{color:#fff;margin-bottom:6px}
+.card-navy .sub{margin-bottom:20px;font-size:.98rem}
+.benefits li{display:flex;align-items:center;gap:16px;padding:14px 0;border-top:1px solid rgba(255,255,255,.14);color:#fff;font-weight:600}
+.benefits li:first-child{border-top:0}
+.benefits .bi{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:rgba(255,196,46,.16);color:var(--amber);flex:none}
+.benefits .bi .ico{width:24px;height:24px}
 
-			/* Texto de apoyo bajo el formulario */
-			.nota-form {
-				font-size: 0.85em;
-				margin: 1.5em 0 0 0;
-			}
-		
-				/* Animaciones: cómo funciona cada sistema */
-				.subtitulo {
-					margin: 0 0 0.35em 0;
-					font-size: 1.5em;
-				}
-				.subtitulo-nota {
-					margin: 0 0 2.25em 0;
-				}
-				.sistemas {
-					max-width: 76em;
-					margin: 0 auto 3.5em auto;
-					display: grid;
-					gap: 3.5em;
-				}
-				.sistema {
-					display: grid;
-					grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr);
-					gap: 2.75em;
-					align-items: center;
-					text-align: left;
-				}
-				.sistema.invertido {
-					grid-template-columns: minmax(0, 1fr) minmax(0, 1.9fr);
-				}
-				.sistema.invertido .sistema-medio {
-					order: 2;
-				}
-				.sistema-medio {
-					margin: 0;
-					border-radius: 0.75em;
-					overflow: hidden;
-					background: #0e2c3c;
-					box-shadow: 0 12px 32px rgba(14, 44, 60, 0.25);
-					line-height: 0;
-				}
-				.sistema-medio img {
-					display: block;
-					width: 100%;
-					height: auto;
-				}
-				.sistema-tag {
-					display: inline-block;
-					margin: 0 0 0.9em 0;
-					padding: 0.35em 1em;
-					border-radius: 2em;
-					background: #ffc42e;
-					color: #0e2c3c;
-					font-size: 0.8em;
-					font-weight: 900;
-					letter-spacing: 0.02em;
-				}
-				.sistema-texto h3 {
-					margin: 0 0 0.5em 0;
-					font-size: 1.45em;
-				}
-				.sistema-texto p {
-					margin: 0 0 1.5em 0;
-				}
-				.sistema-texto p.sistema-tag {
-					margin: 0 0 0.9em 0;
-				}
-				.sistema-texto .button {
-					background: #0e2c3c;
-					color: #ffffff;
-					height: auto;
-					line-height: 1.3;
-					padding: 1em 1.6em;
-					white-space: nowrap;
-				}
-				.sistema-texto .button:hover {
-					background: #17435a;
-				}
-				.sistema-texto .button:before {
-					font-family: "Font Awesome 5 Brands";
-					font-weight: 400;
-					font-size: 1.3em;
-					content: "\f232";
-					margin-right: 0.5em;
-					vertical-align: -0.1em;
-				}
-				.galeria-titulo {
-					margin-top: 0.5em;
-				}
-				@media screen and (max-width: 900px) {
-					.sistema,
-					.sistema.invertido {
-						grid-template-columns: minmax(0, 1fr);
-						gap: 1.5em;
-						max-width: 34em;
-						margin: 0 auto;
-					}
-					.sistema.invertido .sistema-medio {
-						order: 0;
-					}
-					.sistemas {
-						gap: 3em;
-					}
-				}
-			</style>
-	</head>
-	<body class="is-preload">
+/* ---------- Sistemas ---------- */
+.tabs{display:none;gap:6px;margin:0 auto 28px;padding:6px;width:max-content;max-width:100%;background:#fff;border:1px solid var(--line);border-radius:999px;box-shadow:var(--shadow)}
+.js .tabs{display:flex}
+.tab{display:flex;flex-direction:column;align-items:center;gap:2px;padding:12px 28px;border:0;border-radius:999px;background:transparent;color:var(--navy);font:inherit;cursor:pointer;transition:background .2s,color .2s}
+.tab strong{font-weight:800;font-size:1.02rem;line-height:1.1}
+.tab span{font-size:.78rem;font-weight:500;color:var(--muted)}
+.tab:hover:not([aria-selected="true"]){background:var(--sky)}
+.tab[aria-selected="true"]{background:var(--navy);color:#fff}
+.tab[aria-selected="true"] span{color:rgba(255,255,255,.78)}
+.panel{display:grid;grid-template-columns:minmax(0,480px) minmax(0,1fr);gap:28px 52px;align-items:start;padding:36px;background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow)}
+.panel + .panel{margin-top:28px}
+.panel-left,.panel-right{display:grid;gap:22px;align-content:start}
+.media{margin:0;border-radius:18px;overflow:hidden;background:var(--navy);box-shadow:0 12px 30px rgba(14,44,60,.22);line-height:0}
+.media img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.photo{margin:0}
+.photo .ph{aspect-ratio:16/10;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:#fff}
+.photo img{width:100%;height:100%;object-fit:cover}
+.photo.contain img{object-fit:contain;padding:8px}
+.photo figcaption{margin-top:8px;font-size:.86rem;color:var(--muted)}
+.tag{display:inline-block;padding:6px 14px;border-radius:999px;background:var(--sky);color:var(--navy-2);font-weight:700;font-size:.8rem}
+.panel h3{margin-top:12px;font-size:clamp(1.55rem,2.7vw,2.1rem)}
+.panel-desc{margin-top:14px;font-size:1.05rem}
+.when{padding:16px 18px;background:var(--sky-2);border:1px solid var(--line);border-left:4px solid var(--amber);border-radius:14px}
+.when h4{margin-bottom:6px;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.when p{color:var(--navy)}
+.when strong{font-weight:700}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px}
+.unsure{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px 20px;margin-top:34px;text-align:center;color:var(--navy);font-weight:600}
 
-		<!-- Header -->
-			<header id="header">
-				<h1>Casa Solar</h1>
-				<nav>
-					<ul>
-						<li><a href="#intro">Inicio</a></li>
-						<li><a href="#one">Servicios</a></li>
-						<li><a href="#two">Alcances</a></li>
-						<li><a href="#work">Cómo cotizar</a></li>
-						<li><a href="#zonas">Zonas</a></li>
-						<li><a href="#preguntas">Preguntas</a></li>
-						<li><a href="#contact">Contacto</a></li>
-					</ul>
-				</nav>
-			</header>
+/* ---------- Cotizar ---------- */
+.sec-navy{background:var(--navy);color:rgba(255,255,255,.82)}
+.sec-navy h2{color:#fff}
+.sec-navy .lead{color:rgba(255,255,255,.82)}
+.q-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:56px;align-items:start}
+.q-list{display:grid;gap:12px;margin-top:26px}
+.q-list li{display:flex;gap:12px;align-items:flex-start;color:#fff}
+.q-list .ico{width:22px;height:22px;margin-top:2px;color:var(--amber)}
+.direct{margin-top:34px;padding-top:28px;border-top:1px solid rgba(255,255,255,.16)}
+.direct p{margin-bottom:16px;color:#fff;font-weight:600}
+.direct-row{display:flex;flex-wrap:wrap;gap:12px}
+.form-card{padding:34px;background:#fff;color:var(--text);border-radius:var(--r-lg);box-shadow:0 30px 60px rgba(0,0,0,.3)}
+.form-card h3{font-size:1.45rem;margin-bottom:22px}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.field{display:flex;flex-direction:column;gap:7px;min-width:0}
+.field.full{grid-column:1/-1}
+label{font-weight:700;font-size:.9rem;color:var(--navy)}
+label small{font-weight:500;color:var(--muted)}
+input,select,textarea{width:100%;min-height:50px;padding:13px 15px;border:1.5px solid #C9D5DC;border-radius:12px;background:#fff;color:var(--navy);font:inherit;transition:border-color .2s,box-shadow .2s}
+textarea{min-height:128px;resize:vertical;line-height:1.5}
+input::placeholder,textarea::placeholder{color:#7D8E99}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--navy);box-shadow:0 0 0 4px rgba(255,196,46,.55)}
+select{appearance:none;-webkit-appearance:none;padding-right:44px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230E2C3C' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 14px center/18px}
+html:not(.js) #form-cotizar{display:none}
+.pulse select{animation:pulse 1.6s ease}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(255,196,46,0)}25%{box-shadow:0 0 0 6px rgba(255,196,46,.85)}}
+.hints{margin-top:18px}
+.hint{padding:13px 16px;background:var(--sky);border-left:4px solid var(--amber);border-radius:12px;color:var(--navy);font-size:.95rem}
+.hints .hint + .hint{margin-top:10px}
+.form-actions{margin-top:22px}
+.form-actions .btn{width:100%;padding:17px 26px;font-size:1.05rem}
+.form-note{margin-top:16px;font-size:.85rem;color:var(--muted)}
 
-		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-				<div class="content">
-					<header>
-						<h2>Energía solar para tu hogar, finca o negocio</h2>
-					</header>
-					<p>Bienvenid@ a <strong>Casa Solar</strong>. Diseñamos e instalamos paneles solares (sistemas On-Grid, Off-Grid e híbridos) en
-						<strong>Bogotá, Medellín, Bucaramanga y Cundinamarca</strong> (Anapoima, Girardot, Facatativá y más).
-						Te acompañamos hacia un futuro más limpio y sostenible.</p>
-					<p><a href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20solar%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" class="button style2" target="_blank" rel="noopener">Cotizar por WhatsApp</a></p>
-					<footer>
-						<a href="#one" class="button style2 down">Más</a>
-					</footer>
-				</div>
-			</section>
+/* ---------- Zonas ---------- */
+.zonas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.zona{padding:30px;background:#fff;border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
+.zona .pin{display:grid;place-items:center;width:46px;height:46px;margin-bottom:18px;border-radius:14px;background:var(--amber);color:var(--navy)}
+.zona .pin .ico{width:24px;height:24px}
+.zona h3{font-size:1.3rem;margin-bottom:10px}
+.zona-note{margin-top:30px;text-align:center;font-weight:600;color:var(--navy)}
+.zona-note a{color:var(--navy)}
 
-		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Servicios</h2>
-					</header>
-					<ul class="lista-servicios21">
-						<li>Te damos orientación si no estás segur@ de lo que necesitas para tu hogar, finca o negocio.</li>
-						<li>Diseño personalizado según tu consumo.</li>
-						<li>Sistemas solares On-Grid, Off-Grid e híbridos para hogares, fincas y negocios.</li>
-						<li>Puesta en marcha y prueba del sistema.</li>
-						<li>Mantenimiento y soporte postventa.</li>
-						<li>Soluciones confiables para zonas con mala energía.</li>
-					</ul>
-				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
-			</section>
+/* ---------- Preguntas ---------- */
+.faq-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:56px;align-items:start}
+.faq-grid .sec-head{position:sticky;top:calc(var(--header-h) + 28px);margin:0}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:16px;transition:background .2s,box-shadow .2s}
+.faq details + details{margin-top:12px}
+.faq details[open]{box-shadow:var(--shadow)}
+.faq summary{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 24px;cursor:pointer;list-style:none;color:var(--navy);font-weight:700;line-height:1.35}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";width:22px;height:22px;flex:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230E2C3C' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") center/contain no-repeat;transition:transform .25s}
+.faq details[open] summary::after{transform:rotate(180deg)}
+.faq details p{padding:0 24px 22px}
 
-		<!-- Two -->
-			<section id="two" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Alcances</h2>
-					</header>
-					<strong>¿Qué puedes esperar de tu proyecto?</strong>
-					<ul class="lista-servicios21">
-						<li>Ahorros desde el primer mes.</li>
-						<li>Acompañamiento completo.</li>
-						<li>Energía limpia y sostenible.</li>
-						<li>Equipos con garantía.</li>
-						<li>Instalación segura y profesional.</li>
-					</ul>
-				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
-			</section>
+/* ---------- Pie ---------- */
+.ftr{padding:60px 0 110px;background:var(--navy-3);color:rgba(255,255,255,.74);font-size:.94rem}
+.ftr-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px}
+.ftr .brand{width:210px;margin-bottom:20px}
+.ftr p + p{margin-top:12px}
+.ftr a{color:#fff}
+.social{display:flex;gap:12px;margin-bottom:20px}
+.social a{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.1);color:#fff;transition:background .2s,color .2s}
+.social a:hover{background:var(--amber);color:var(--navy)}
+.social .ico{width:22px;height:22px}
+.copy{margin-top:40px;padding-top:24px;border-top:1px solid rgba(255,255,255,.14);font-size:.85rem}
 
-		<!-- Work -->
-			<section id="work" class="main style3 primary">
-				<div class="content">
-					<header>
-						<h2>Cómo cotizar</h2>
-						<p>Si estás interesad@ en adquirir un sistema de energía solar y no sabes cuál te conviene, te dejamos una breve descripción de los tipos de sistemas:</p>
-					</header>
+/* ---------- WhatsApp flotante ---------- */
+.wa{position:fixed;right:18px;bottom:18px;z-index:60;display:flex;align-items:center;gap:10px;padding:14px 22px 14px 18px;border-radius:999px;background:var(--wa);color:var(--navy);font-weight:800;font-size:.97rem;line-height:1;text-decoration:none;box-shadow:0 12px 28px rgba(0,0,0,.3);transition:transform .15s,background .2s}
+.wa:hover{background:#1FBE5B;transform:translateY(-2px)}
+.wa .ico{width:26px;height:26px}
 
-					<!-- Animaciones: cómo funciona cada sistema -->
-						<h3 class="subtitulo">Así funciona cada sistema</h3>
-						<p class="subtitulo-nota">Mira cómo se mueve la energía en cada uno a lo largo del día.</p>
+/* ---------- Adaptación a pantallas ---------- */
+@media (max-width:960px){
+	.sec{padding:72px 0}
+	.hero-grid{grid-template-columns:minmax(0,1fr);gap:44px;padding:44px 0 64px}
+	.hero-media{justify-self:center;width:min(100%,430px)}
+	.float-card{left:-8px}
+	.svc-grid,.q-grid,.faq-grid,.ftr-grid{grid-template-columns:minmax(0,1fr)}
+	.faq-grid .sec-head{position:static}
+	.zonas{grid-template-columns:minmax(0,1fr)}
+	.panel{display:flex;flex-direction:column;align-items:stretch;gap:22px;padding:22px}
+	.panel-left,.panel-right{display:contents}
+	.panel .head{order:1}.panel .media{order:2}.panel .when{order:3}.panel .photo{order:4}.panel .cta-row{order:5}
+}
+@media (max-width:860px){
+	.menu-btn{display:inline-flex}
+	.js .nav{display:none;position:absolute;left:0;right:0;top:100%;margin:0;padding:10px 20px 22px;flex-direction:column;align-items:stretch;gap:2px;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 20px 30px rgba(14,44,60,.1)}
+	.js .nav.open{display:flex}
+	.nav a{padding:14px 12px;margin:0 -12px;font-size:1.02rem}
+	.nav .btn{margin:10px 0 0}
+}
+@media (max-width:640px){
+	body{font-size:16px}
+	.fields{grid-template-columns:minmax(0,1fr)}
+	.form-card,.card{padding:24px}
+	.tabs{width:100%}
+	.tab{flex:1;padding:12px 8px}
+	.tab span{display:none}
+	.hero-cta .btn{width:100%}
+	.wa span{display:none}
+	.wa{padding:15px}
+	.float-card{left:10px;right:10px;bottom:16px}
+}
+@media (prefers-reduced-motion:reduce){
+	html{scroll-behavior:auto}
+	*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+	.js .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
 
-						<div class="sistemas">
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+<!-- Iconos de marcas (WhatsApp, Facebook, Instagram): Font Awesome Free 5.15.4, https://fontawesome.com - licencia CC BY 4.0 (https://fontawesome.com/license/free) -->
+<symbol id="i-wa" viewBox="0 -448 448 512"><path transform="scale(1 -1)" d="M380.9 350.9c41.9 -42 67.1 -97.7 67.1 -157c0 -122.4 -101.8 -222 -224.1 -222h-0.1c-37.2 0 -73.7 9.3 -106.1 27l-117.7 -30.9l31.5 115c-19.4 33.7 -29.6 71.9 -29.6 111c0 122.4 99.6 222 222 222 c59.3 0 115.1 -23.1 157 -65.1zM223.9 9.3c101.7 0 186.6 82.8 186.6 184.6c0.1 49.3 -21.3 95.6 -56.1 130.5c-34.8 34.9 -81.1 54.1 -130.4 54.1c-101.8 0 -184.6 -82.8 -184.6 -184.5 c0 -34.9 9.7 -68.8 28.2 -98.2l4.4 -7l-18.6 -68.1l69.8 18.3l6.7 -4c28.3 -16.8 60.8 -25.7 94 -25.7zM325.1 147.5c5.5 -2.7 9.2 -4.1 10.5 -6.6c1.4 -2.3 1.4 -13.4 -3.2 -26.4 c-4.6 -13 -26.7 -24.8 -37.4 -26.4c-17.6 -2.6 -31.4 -1.3 -66.6 13.9c-55.7 24.1 -92 80.1 -94.8 83.8c-2.7 3.7 -22.6 30.1 -22.6 57.4s14.3 40.7 19.4 46.3 c5.1 5.5 11.1 6.9 14.8 6.9s7.4 0 10.6 -0.2c3.4 -0.2 8 1.3 12.5 -9.5c4.6 -11.1 15.7 -38.4 17.1 -41.2c1.4 -2.8 2.3 -6 0.5 -9.7c-10.6 -21.2 -22 -20.5 -16.3 -30.3 c21.5 -36.9 42.9 -49.7 75.5 -66c5.5 -2.8 8.8 -2.3 12 1.4c3.3 3.8 13.9 16.2 17.6 21.8c3.7 5.6 7.4 4.7 12.5 2.8c5.1 -1.8 32.4 -15.2 37.9 -18z"/></symbol>
+<symbol id="i-fb" viewBox="0 -448 320 512"><path transform="scale(1 -1)" d="M279.1 160h-74.7v-224h-100.2v224h-81.4v92.7h81.4v70.6c0 80.3 47.9 124.7 121.1 124.7c35.1 0 71.8 -6.3 71.8 -6.3v-78.9h-40.4c-39.8 0 -52.2 -24.7 -52.2 -50.1v-60.1h88.9z"/></symbol>
+<symbol id="i-ig" viewBox="0 -448 448 512"><path transform="scale(1 -1)" d="M224.1 307c63.6 0 114.9 -51.3 114.9 -114.9c0 -63.6 -51.3 -114.9 -114.9 -114.9c-63.6 0 -114.9 51.3 -114.9 114.9c0 63.6 51.3 114.9 114.9 114.9zM224.1 117.4c41.1 0 74.7 33.5 74.7 74.7 c0 41.2 -33.5 74.7 -74.7 74.7c-41.2 0 -74.7 -33.5 -74.7 -74.7c0 -41.2 33.6 -74.7 74.7 -74.7zM370.5 311.7c0 -14.9 -12 -26.8 -26.8 -26.8c-14.9 0 -26.8 12 -26.8 26.8s12 26.8 26.8 26.8 s26.8 -12 26.8 -26.8zM446.6 284.5c2.1 -37 2.1 -147.8 0 -184.8c-1.8 -35.9 -10 -67.7 -36.2 -93.9c-26.2 -26.3 -58 -34.5 -93.9 -36.2c-37 -2.1 -147.9 -2.1 -184.9 0 c-35.9 1.8 -67.6 10 -93.9 36.2s-34.5 58 -36.2 93.9c-2.1 37 -2.1 147.9 0 184.9c1.8 35.9 9.9 67.7 36.2 93.9s58.1 34.4 93.9 36.1c37 2.1 147.9 2.1 184.9 0 c35.9 -1.8 67.7 -10 93.9 -36.2c26.3 -26.2 34.5 -58 36.2 -93.9zM398.8 60c11.7 29.4 9 99.5 9 132.1c0 32.6 2.7 102.6 -9 132.1c-7.9 19.7 -23 34.8 -42.6 42.6c-29.4 11.6 -99.5 9 -132.1 9 c-32.6 0 -102.6 2.7 -132.1 -9c-19.7 -7.9 -34.8 -23 -42.6 -42.6c-11.6 -29.4 -9 -99.5 -9 -132.1c0 -32.6 -2.7 -102.6 9 -132.1c7.9 -19.7 23 -34.8 42.6 -42.6c29.4 -11.6 99.5 -9 132.1 -9 c32.6 0 102.6 -2.7 132.1 9c19.7 7.9 34.8 23 42.6 42.6z"/></symbol>
+<!-- Iconos de línea dibujados para Casa Solar -->
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 1 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></symbol>
+<symbol id="i-down" viewBox="0 0 24 24"><path d="M3 7l6.5 6.5 4-4L21 17"/><path d="M21 11v6h-6"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c0-3.3 2.5-5.5 5.5-5.5s5.5 2.2 5.5 5.5"/><circle cx="17" cy="9.2" r="2.5"/><path d="M16.5 13.8c2.8 0 5 1.8 5 4.7"/></symbol>
+<symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c-.5-8 4-13.5 14-14 .5 9.5-4.5 14.5-14 14z"/><path d="M5 19c3-4.5 6-7.5 10-10"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7.5 3v5.5c0 4.7-3.2 8.2-7.5 9.5-4.3-1.3-7.5-4.8-7.5-9.5V6z"/><path d="M8.8 12l2.4 2.4 4.2-4.6"/></symbol>
+<symbol id="i-hat" viewBox="0 0 24 24"><path d="M3.5 17h17"/><path d="M5.5 17a6.5 6.5 0 0 1 13 0"/><path d="M10 10.6V7.5h4v3.1"/></symbol>
+</defs></svg>
+<a class="skip" href="#contenido">Saltar al contenido</a>
 
-							<article class="sistema">
-								<figure class="sistema-medio">
-									<picture>
-										<source media="(prefers-reduced-motion: reduce)" srcset="images/animaciones/casa-solar-on-grid-poster.jpg">
-										<source type="image/webp" srcset="images/animaciones/casa-solar-on-grid.webp">
-										<img src="images/animaciones/casa-solar-on-grid-poster.jpg" width="800" height="450" loading="lazy" decoding="async"
-											alt="Animación del sistema On-Grid con paneles solares, inversor, medidor y red eléctrica. De día la casa consume la energía solar y el excedente se inyecta a la red; con nubes la red completa lo que falta y de noche la casa se alimenta de la red." />
-									</picture>
-								</figure>
-								<div class="sistema-texto">
-									<p class="sistema-tag">Con red eléctrica</p>
-									<h3>Sistema On-Grid</h3>
-									<p>Trabaja en conjunto con la red eléctrica. Durante el día la energía solar alimenta los consumos de tu hogar o negocio y el excedente se puede inyectar a la red, generando ahorros. Es ideal para zonas urbanas con suministro eléctrico estable.</p>
-									<a class="button" href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20On-Grid%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" target="_blank" rel="noopener" aria-label="Cotizar un sistema On-Grid por WhatsApp">Cotizar por WhatsApp</a>
-								</div>
-							</article>
+<!-- ===== Cabecera ===== -->
+<header class="hdr">
+	<div class="wrap hdr-in">
+		<a class="brand" href="#inicio" aria-label="Casa Solar, ir al inicio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372.05 100" aria-hidden="true" focusable="false"><g transform="translate(0 0)"><g transform="scale(0.84) translate(-22 -3.25)"><path fill="#FFC42E" d="M50.79 58.01A20 20 0 1 1 77.21 58.01L69.48 51.5A8.5 8.5 0 0 0 58.52 51.5ZM41.38 26.19L34.02 21.94A3.25 3.25 0 0 0 30.77 27.56L38.13 31.81A3.25 3.25 0 0 0 41.38 26.19ZM52.81 17.13L48.56 9.77A3.25 3.25 0 0 0 42.94 13.02L47.19 20.38A3.25 3.25 0 0 0 52.81 17.13ZM67.25 15L67.25 6.5A3.25 3.25 0 0 0 60.75 6.5L60.75 15A3.25 3.25 0 0 0 67.25 15ZM80.81 20.38L85.06 13.02A3.25 3.25 0 0 0 79.44 9.77L75.19 17.13A3.25 3.25 0 0 0 80.81 20.38ZM89.87 31.81L97.23 27.56A3.25 3.25 0 0 0 93.98 21.94L86.62 26.19A3.25 3.25 0 0 0 89.87 31.81Z"/><path fill="#0E2C3C" fill-rule="evenodd" d="M66.58 54.94L104.58 86.94A4 4 0 0 1 106 90L106 118A4 4 0 0 1 102 122L26 122A4 4 0 0 1 22 118L22 90A4 4 0 0 1 23.42 86.94L61.42 54.94A4 4 0 0 1 66.58 54.94ZM49.35 94.5H59.15A2.6 2.6 0 0 1 61.75 97.1V102.9A2.6 2.6 0 0 1 59.15 105.5H49.35A2.6 2.6 0 0 1 46.75 102.9V97.1A2.6 2.6 0 0 1 49.35 94.5ZM68.85 94.5H78.65A2.6 2.6 0 0 1 81.25 97.1V102.9A2.6 2.6 0 0 1 78.65 105.5H68.85A2.6 2.6 0 0 1 66.25 102.9V97.1A2.6 2.6 0 0 1 68.85 94.5ZM49.35 110H59.15A2.6 2.6 0 0 1 61.75 112.6V118.4A2.6 2.6 0 0 1 59.15 121H49.35A2.6 2.6 0 0 1 46.75 118.4V112.6A2.6 2.6 0 0 1 49.35 110ZM68.85 110H78.65A2.6 2.6 0 0 1 81.25 112.6V118.4A2.6 2.6 0 0 1 78.65 121H68.85A2.6 2.6 0 0 1 66.25 118.4V112.6A2.6 2.6 0 0 1 68.85 110Z"/></g><path fill="#0E2C3C" d="M116.49 100.68C126.8 100.68 134.27 94.36 135.55 84.68H125.29C124.39 89.15 121.19 91.79 116.66 91.79C110.14 91.79 106.46 86.94 106.46 78.93C106.46 70.89 110.17 66.02 116.66 66.02C121.19 66.02 124.42 68.68 125.27 73.18H135.55C134.3 63.5 126.8 57.12 116.49 57.12C104.9 57.12 96.21 65.14 96.21 78.93C96.21 92.61 104.9 100.68 116.49 100.68ZM148.1 100.51C152.32 100.51 155.01 99.04 156.8 95.81H156.91V100H166.43V79.86C166.43 73.27 161.64 69.44 152.95 69.44C144.28 69.44 139.38 73.29 138.96 79.78H148.02C148.22 77.74 149.89 76.44 152.61 76.44C155.18 76.44 156.77 77.66 156.77 79.44V79.58C156.77 81.37 154.82 81.79 149.46 82.24C143.09 82.75 137.85 84.93 137.85 91.65C137.85 97.59 142.13 100.51 148.1 100.51ZM151.08 94.14C148.7 94.14 147.08 93.03 147.08 91.19C147.08 89.24 148.95 88.16 151.56 87.77C153.97 87.37 155.81 87 156.86 86.52V89.24C156.86 92.18 154.33 94.14 151.08 94.14ZM184.37 100.74C192.75 100.74 198.41 96.6 198.41 90.46C198.41 86.01 195.52 83.43 189.38 82.3L183.38 81.2C181.31 80.8 180.15 79.98 180.15 78.73C180.15 77.26 181.62 76.15 184.17 76.15C186.75 76.15 188.61 77.71 188.67 79.81H197.65C197.48 73.44 192.18 69.47 183.83 69.47C175.5 69.47 170.43 73.27 170.43 79.18C170.43 83.91 173.58 86.94 179.47 87.99L184.88 88.96C187.25 89.38 188.5 90.17 188.5 91.48C188.5 92.98 186.92 94.02 184.22 94.02C181.36 94.02 179.64 92.64 179.35 90.43H169.75C170.29 96.8 176.1 100.74 184.37 100.74ZM210.86 100.51C215.08 100.51 217.77 99.04 219.55 95.81H219.67V100H229.18V79.86C229.18 73.27 224.39 69.44 215.7 69.44C207.03 69.44 202.14 73.29 201.71 79.78H210.77C210.97 77.74 212.64 76.44 215.36 76.44C217.94 76.44 219.52 77.66 219.52 79.44V79.58C219.52 81.37 217.57 81.79 212.22 82.24C205.85 82.75 200.61 84.93 200.61 91.65C200.61 97.59 204.88 100.51 210.86 100.51ZM213.83 94.14C211.45 94.14 209.84 93.03 209.84 91.19C209.84 89.24 211.71 88.16 214.31 87.77C216.72 87.37 218.56 87 219.61 86.52V89.24C219.61 92.18 217.09 94.14 213.83 94.14Z"/><path fill="#0E2C3C" d="M261.38 100.68C270.96 100.68 277.16 95.7 277.16 88.11C277.16 82.07 273.25 78.42 264.78 76.41L260.22 75.33C254.42 73.95 252.15 72.19 252.15 69.13C252.15 65.31 255.75 62.62 260.85 62.62C266.17 62.62 269.63 65.59 269.94 70.43H276.03C275.77 62.19 270.02 57.12 260.93 57.12C251.87 57.12 245.89 62.02 245.89 69.44C245.89 75.28 249.63 78.82 258.16 80.83L262.77 81.93C268.63 83.32 270.87 85.19 270.87 88.45C270.87 92.55 267.11 95.19 261.38 95.19C255.07 95.19 251.36 91.9 251.33 86.32H245.04C245.04 95.24 251.27 100.68 261.38 100.68ZM294.81 100.68C303.37 100.68 309.12 94.31 309.12 85.1C309.12 75.84 303.37 69.41 294.81 69.41C286.26 69.41 280.48 75.84 280.48 85.1C280.48 94.31 286.26 100.68 294.81 100.68ZM294.81 95.53C289.69 95.53 286.55 91.48 286.55 85.1C286.55 78.67 289.72 74.57 294.81 74.57C299.91 74.57 303.08 78.67 303.08 85.1C303.08 91.45 299.94 95.53 294.81 95.53ZM319.69 57.8H313.72V100H319.69ZM334.86 100.48C340.01 100.48 342.45 98.16 343.69 95.75H343.8V100H349.7V79.5C349.7 73.41 345.19 69.5 337.83 69.5C330.35 69.5 325.51 73.52 325.23 79.21H331.09C331.32 76.47 333.92 74.4 337.74 74.4C341.54 74.4 343.78 76.49 343.78 79.38V79.64C343.78 81.82 341.91 81.76 336.3 82.44C330.21 83.15 324.49 84.62 324.49 91.45C324.49 97.42 328.91 100.48 334.86 100.48ZM336.07 95.67C332.59 95.67 330.44 94.14 330.44 91.56C330.44 88.53 333.38 87.37 336.64 86.89C339.81 86.43 342.98 85.95 343.8 85.3V88.81C343.8 92.5 341.34 95.67 336.07 95.67ZM355.74 100H361.71V82.33C361.71 77.46 364.46 75.16 367.83 75.16C369.22 75.16 370.52 75.36 370.98 75.45V69.87C370.49 69.81 369.7 69.73 368.79 69.73C365 69.73 362.68 71.68 361.57 74.94H361.46V70.09H355.74Z"/></g></svg></a>
+		<button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+			<svg class="ico ico-s i-open" aria-hidden="true"><use href="#i-menu"/></svg>
+			<svg class="ico ico-s i-close" aria-hidden="true"><use href="#i-close"/></svg>
+		</button>
+		<nav class="nav" id="menu" aria-label="Principal">
+			<a href="#servicios">Servicios</a>
+			<a href="#sistemas">Sistemas</a>
+			<a href="#zonas">Zonas</a>
+			<a href="#preguntas">Preguntas</a>
+			<a class="btn btn-primary btn-sm" href="#cotizar">Cotizar</a>
+		</nav>
+	</div>
+</header>
 
-							<article class="sistema invertido">
-								<figure class="sistema-medio">
-									<picture>
-										<source media="(prefers-reduced-motion: reduce)" srcset="images/animaciones/casa-solar-off-grid-poster.jpg">
-										<source type="image/webp" srcset="images/animaciones/casa-solar-off-grid.webp">
-										<img src="images/animaciones/casa-solar-off-grid-poster.jpg" width="800" height="450" loading="lazy" decoding="async"
-											alt="Animación del sistema Off-Grid, sin conexión a la red eléctrica. De día los paneles alimentan la casa y cargan las baterías; con nubes y de noche la casa funciona con la energía guardada en las baterías." />
-									</picture>
-								</figure>
-								<div class="sistema-texto">
-									<p class="sistema-tag">Sin red eléctrica</p>
-									<h3>Sistema Off-Grid</h3>
-									<p>Funciona completamente desconectado de la red, con baterías que guardan la energía del día para usarla en la noche o en días nublados. Es perfecto para viviendas rurales, fincas y cabañas donde no hay servicio eléctrico, con autonomía energética total.</p>
-									<a class="button" href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20Off-Grid%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" target="_blank" rel="noopener" aria-label="Cotizar un sistema Off-Grid por WhatsApp">Cotizar por WhatsApp</a>
-								</div>
-							</article>
+<main id="contenido" tabindex="-1">
 
-							<article class="sistema">
-								<figure class="sistema-medio">
-									<picture>
-										<source media="(prefers-reduced-motion: reduce)" srcset="images/animaciones/casa-solar-hibrido-poster.jpg">
-										<source type="image/webp" srcset="images/animaciones/casa-solar-hibrido.webp">
-										<img src="images/animaciones/casa-solar-hibrido-poster.jpg" width="800" height="450" loading="lazy" decoding="async"
-											alt="Animación del sistema híbrido con paneles solares, inversor, batería y red eléctrica. De día la casa usa la energía solar y guarda el excedente en la batería; de noche usa la batería; si se va la luz, la batería mantiene la casa encendida; con nubes y la batería baja, la red completa lo que falta como respaldo." />
-									</picture>
-								</figure>
-								<div class="sistema-texto">
-									<p class="sistema-tag">Red eléctrica + baterías</p>
-									<h3>Sistema híbrido</h3>
-									<p>Combina lo mejor del On-Grid y del Off-Grid: usa la energía solar en tiempo real, almacena el excedente en baterías y puede conectarse a la red como respaldo. Aporta seguridad ante cortes de luz y permite ahorrar.</p>
-									<a class="button" href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20h%C3%ADbrido%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" target="_blank" rel="noopener" aria-label="Cotizar un sistema híbrido por WhatsApp">Cotizar por WhatsApp</a>
-								</div>
-							</article>
-
-						</div>
-
-						<h3 class="subtitulo galeria-titulo">Fotos y detalle de cada sistema</h3>
-						<p class="subtitulo-nota">Toca una imagen para verla más grande.</p>
-
-						<!-- Gallery -->
-						<div class="gallery">
-							<article class="from-left">
-								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="Sistema On-Grid" alt="Sistema On-Grid: trabaja junto con la red eléctrica, alimenta tu hogar o negocio durante el día e inyecta el excedente a la red para reducir la factura de luz." /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/thumbs/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Instalación de paneles solares en techo" alt="Dos técnicos instalando paneles solares sobre un techo de teja" /></a>
-							</article>
-							<article class="from-left">
-								<a href="images/thumbs/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Instalación solar en zona rural" alt="Instalación de paneles solares en una zona rural" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Sistema Off-Grid" alt="Sistema Off-Grid: funciona desconectado de la red con baterías, ideal para viviendas rurales, fincas y cabañas sin servicio eléctrico." /></a>
-							</article>
-							<article class="from-left">
-								<a href="images/thumbs/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="Sistema híbrido" alt="Sistema híbrido: combina On-Grid y Off-Grid, guarda el excedente en baterías y se conecta a la red como respaldo ante cortes de luz." /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/thumbs/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Equipos de un sistema solar híbrido" alt="Equipos de un sistema solar híbrido: inversor, batería y paneles solares" /></a>
-							</article>
-						</div>
-
-					<p>Cuando tengas claro cuál te interesa, <a href="#contact">cotiza aquí</a> o escríbenos directo por
-						<a href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20solar%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" target="_blank" rel="noopener">WhatsApp</a>.</p>
-				</div>
-			</section>
-
-		<!-- Zonas -->
-			<section id="zonas" class="main style3 secondary">
-				<div class="content">
-					<header>
-						<h2>Zonas de atención</h2>
-						<p>Diseñamos e instalamos sistemas solares para hogares, fincas y negocios en:</p>
-					</header>
-					<div class="zonas">
-						<div class="zona">
-							<h3>Bogotá y Cundinamarca</h3>
-							<p>Bogotá, Anapoima, Girardot, Facatativá y otros municipios de Cundinamarca.</p>
-						</div>
-						<div class="zona">
-							<h3>Antioquia</h3>
-							<p>Medellín. Consúltanos por municipios cercanos.</p>
-						</div>
-						<div class="zona">
-							<h3>Santander</h3>
-							<p>Bucaramanga. Consúltanos por municipios cercanos.</p>
-						</div>
-					</div>
-					<p>¿Tu municipio no aparece? <a href="#contact">Escríbenos</a> y te confirmamos si llegamos hasta allá.</p>
-				</div>
-			</section>
-
-		<!-- Preguntas frecuentes -->
-	<section id="preguntas" class="main style3 primary">
-		<div class="content">
-			<header>
-				<h2>Preguntas frecuentes</h2>
-				<p>Respuestas rápidas sobre paneles solares y cómo cotizar con Casa Solar.</p>
-			</header>
-			<div class="faq">
-				<details>
-					<summary>¿Qué sistema solar me conviene: On-Grid, Off-Grid o híbrido?</summary>
-					<p>Depende de tu situación. Si tu casa ya tiene electricidad pero la factura es costosa, un sistema <strong>On-Grid</strong> trabaja junto con la red y reduce lo que pagas.
-						Si no tienes red eléctrica o se va constantemente, un sistema <strong>Off-Grid</strong> funciona con baterías, sin depender de la red.
-						Si quieres ahorrar y además tener respaldo cuando se va la luz, el sistema <strong>híbrido</strong> combina ambos. Si no estás segur@, te orientamos.</p>
-				</details>
-				<details>
-					<summary>¿Qué necesito enviar para cotizar paneles solares?</summary>
-					<p>Tu ciudad o municipio, una breve descripción del techo o superficie donde se instalaría y el sistema que te interesa.
-						Para On-Grid, tu consumo mensual (aparece en la factura de luz) o la factura; para Off-Grid, los equipos que quieres alimentar y por cuánto tiempo.
-						Puedes hacerlo desde el <a href="#contact">formulario de contacto</a>.</p>
-				</details>
-				<details>
-					<summary>¿Cuánto cuesta un sistema solar para una casa o finca?</summary>
-					<p>Depende de tu consumo y del tipo de sistema, por eso diseñamos cada proyecto según tu consumo y lo cotizamos de forma personalizada.
-						Escríbenos por <a href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20solar%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" target="_blank" rel="noopener">WhatsApp</a> con tus datos y te orientamos.</p>
-				</details>
-				<details>
-					<summary>¿En qué ciudades instalan paneles solares?</summary>
-					<p>Atendemos Bogotá, Medellín, Bucaramanga, Anapoima, Girardot, Facatativá y otros municipios de Cundinamarca.
-						Si tu municipio no aparece, <a href="#contact">escríbenos</a> y te confirmamos si llegamos hasta allá.</p>
-				</details>
-				<details>
-					<summary>¿Ofrecen mantenimiento y soporte después de la instalación?</summary>
-					<p>Sí. Hacemos la puesta en marcha y la prueba del sistema, y ofrecemos mantenimiento y soporte postventa.</p>
-				</details>
+<!-- ===== Inicio ===== -->
+<section class="hero" id="inicio">
+	<div class="wrap hero-grid">
+		<div class="hero-text">
+			<p class="chip">Paneles solares en Colombia</p>
+			<h1>Energía solar para tu hogar, finca o negocio</h1>
+			<p class="lead">Bienvenid@ a <strong>Casa Solar</strong>. Diseñamos e instalamos paneles solares (sistemas On-Grid, Off-Grid e híbridos) en <strong>Bogotá, Medellín, Bucaramanga y Cundinamarca</strong> (Anapoima, Girardot, Facatativá y más). Te acompañamos hacia un futuro más limpio y sostenible.</p>
+			<div class="hero-cta">
+				<a class="btn btn-primary" href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20solar%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Cotizar por WhatsApp</a>
+				<a class="btn btn-ghost" href="#sistemas">Ver los sistemas</a>
+			</div>
+			<div class="hero-chips"><span>Conoce:</span>
+				<a href="#sistemas" data-tab="on-grid">On-Grid</a>
+				<a href="#sistemas" data-tab="off-grid">Off-Grid</a>
+				<a href="#sistemas" data-tab="hibrido">Híbrido</a>
 			</div>
 		</div>
-	</section>
+		<div class="hero-media">
+			<div class="sun" aria-hidden="true"></div>
+			<figure class="hero-photo">
+				<img src="images/portada.jpg" width="630" height="1230" fetchpriority="high" decoding="async" alt="Paneles solares instalados en una terraza, con edificios y montañas al fondo">
+			</figure>
+			<div class="float-card">
+				<span class="pin"><svg class="ico ico-s" aria-hidden="true"><use href="#i-pin"/></svg></span>
+				<span><small>Atendemos en</small><b>Bogotá · Medellín · Bucaramanga · Cundinamarca</b></span>
+			</div>
+		</div>
+	</div>
+</section>
 
-		<!-- Contact -->
-			<section id="contact" class="main style3 secondary">
-				<div class="content">
-					<header>
-						<h2>Contacto</h2>
-						<p>Déjanos tu contacto y el sistema en el que estás interesad@, junto a una breve descripción del tipo de techo o superficie
-							a instalar y la ciudad o municipio desde donde nos escribes, y te atenderemos lo antes posible.</p>
-						<strong>¿Qué podrías colocar en la descripción?</strong>
-						<p>Ejemplos:</p>
+<!-- ===== Servicios y alcances ===== -->
+<section class="sec" id="servicios">
+	<div class="wrap">
+		<header class="sec-head reveal">
+			<p class="chip">Qué hacemos</p>
+			<h2>Servicios y alcances</h2>
+			<p class="lead">Diseño personalizado según tu consumo, instalación y acompañamiento después de la puesta en marcha, para hogares, fincas y negocios.</p>
+		</header>
+		<div class="svc-grid">
+			<div class="card reveal">
+				<h3>Servicios</h3>
+				<ul class="checks">
+					<li><span class="tick"><svg class="ico ico-s" aria-hidden="true"><use href="#i-check"/></svg></span>Te damos orientación si no estás segur@ de lo que necesitas para tu hogar, finca o negocio.</li>
+					<li><span class="tick"><svg class="ico ico-s" aria-hidden="true"><use href="#i-check"/></svg></span>Diseño personalizado según tu consumo.</li>
+					<li><span class="tick"><svg class="ico ico-s" aria-hidden="true"><use href="#i-check"/></svg></span>Sistemas solares On-Grid, Off-Grid e híbridos para hogares, fincas y negocios.</li>
+					<li><span class="tick"><svg class="ico ico-s" aria-hidden="true"><use href="#i-check"/></svg></span>Puesta en marcha y prueba del sistema.</li>
+					<li><span class="tick"><svg class="ico ico-s" aria-hidden="true"><use href="#i-check"/></svg></span>Mantenimiento y soporte postventa.</li>
+					<li><span class="tick"><svg class="ico ico-s" aria-hidden="true"><use href="#i-check"/></svg></span>Soluciones confiables para zonas con mala energía.</li>
+				</ul>
+			</div>
+			<div class="card card-navy on-dark reveal">
+				<h3>Alcances</h3>
+				<p class="sub">¿Qué puedes esperar de tu proyecto?</p>
+				<ul class="benefits">
+					<li><span class="bi"><svg class="ico ico-s" aria-hidden="true"><use href="#i-down"/></svg></span>Ahorros desde el primer mes.</li>
+					<li><span class="bi"><svg class="ico ico-s" aria-hidden="true"><use href="#i-users"/></svg></span>Acompañamiento completo.</li>
+					<li><span class="bi"><svg class="ico ico-s" aria-hidden="true"><use href="#i-leaf"/></svg></span>Energía limpia y sostenible.</li>
+					<li><span class="bi"><svg class="ico ico-s" aria-hidden="true"><use href="#i-shield"/></svg></span>Equipos con garantía.</li>
+					<li><span class="bi"><svg class="ico ico-s" aria-hidden="true"><use href="#i-hat"/></svg></span>Instalación segura y profesional.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
 
-						<ul class="lista-servicios21">
-							<li><strong>Mi casa no tiene red eléctrica o se va constantemente.</strong> Si quieres un servicio de electricidad constante y confiable,
-								necesitas baterías (sistema Off-Grid). Lo ideal es indicar qué equipos necesitas alimentar y por cuánto tiempo.
-								Ej.: 1 televisor de 60&quot; por 12 h o 1 nevera de 180 W por 24 h.</li>
-							<li><strong>Mi casa ya tiene electricidad, pero es muy costosa.</strong> Podrías considerar un sistema On-Grid: genera electricidad y
-								te da un porcentaje de ahorro, o incluso el 100 %, en tu factura de luz. Lo ideal es tener el consumo eléctrico del mes,
-								que aparece en la factura, o enviarnos la factura.</li>
-							<li><strong>Quiero ahorrar y también tener respaldo cuando se va la luz.</strong> Un sistema híbrido combina ambos: usa la energía solar
-								en tiempo real, guarda el excedente en baterías y se conecta a la red como respaldo.</li>
-						</ul>
-					</header>
-					<div class="box">
-						<form id="form-cotizar" method="post" action="#">
-							<div class="fields">
-								<div class="field half"><input type="text" name="name" placeholder="Nombre" aria-label="Nombre" autocomplete="name" required /></div>
-								<div class="field half"><input type="email" name="email" placeholder="Email (opcional)" aria-label="Email (opcional)" autocomplete="email" /></div>
-								<div class="field half">
-									<select name="city" aria-label="Ciudad o municipio" required>
-										<option value="">Ciudad o municipio</option>
-										<option>Bogotá</option>
-										<option>Medellín</option>
-										<option>Bucaramanga</option>
-										<option>Anapoima</option>
-										<option>Girardot</option>
-										<option>Facatativá</option>
-										<option>Otro municipio de Cundinamarca</option>
-										<option>Otra ciudad</option>
-									</select>
-								</div>
-								<div class="field half">
-									<select name="system" aria-label="Sistema de interés">
-										<option value="">Sistema de interés</option>
-										<option value="No sé cuál me conviene">No sé cuál me conviene</option>
-										<option>On-Grid</option>
-										<option>Off-Grid</option>
-										<option>Híbrido</option>
-									</select>
-								</div>
-								<div class="field"><textarea name="message" placeholder="Mensaje: tipo de techo, consumo mensual o equipos que quieres alimentar" aria-label="Mensaje" rows="6"></textarea></div>
-							</div>
-							<ul class="actions special">
-								<li><button type="submit">Enviar por WhatsApp</button></li>
-							</ul>
-						</form>
-						<p class="nota-form">Al enviar se abrirá WhatsApp con tu mensaje listo. También puedes escribirnos directo al
-							<a href="https://wa.me/573014938903" target="_blank" rel="noopener">301 493 8903</a>.
-							Usamos tus datos solo para responder tu solicitud.</p>
+<!-- ===== Sistemas ===== -->
+<section class="sec sec-sky" id="sistemas">
+	<span class="alias" id="work"></span>
+	<div class="wrap">
+		<header class="sec-head center reveal">
+			<p class="chip">Tipos de sistema</p>
+			<h2>Elige el sistema que te conviene</h2>
+			<p class="lead">Si estás interesad@ en adquirir un sistema de energía solar y no sabes cuál te conviene, te dejamos una breve descripción de cada tipo. Mira cómo se mueve la energía en cada uno a lo largo del día.</p>
+		</header>
+
+		<div class="tabs" role="tablist" aria-label="Tipos de sistema solar">
+			<button class="tab" type="button" role="tab" id="tab-on-grid" aria-controls="panel-on-grid" aria-selected="true"><strong>On-Grid</strong><span>Con red eléctrica</span></button>
+			<button class="tab" type="button" role="tab" id="tab-off-grid" aria-controls="panel-off-grid" aria-selected="false" tabindex="-1"><strong>Off-Grid</strong><span>Sin red eléctrica</span></button>
+			<button class="tab" type="button" role="tab" id="tab-hibrido" aria-controls="panel-hibrido" aria-selected="false" tabindex="-1"><strong>Híbrido</strong><span>Red + baterías</span></button>
+		</div>
+
+		<!-- On-Grid -->
+		<article class="panel" id="panel-on-grid" role="tabpanel" aria-labelledby="tab-on-grid">
+			<div class="panel-left">
+				<figure class="media">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="images/animaciones/casa-solar-on-grid-poster.jpg">
+						<source type="image/webp" srcset="images/animaciones/casa-solar-on-grid.webp">
+						<img src="images/animaciones/casa-solar-on-grid-poster.jpg" width="800" height="450" loading="lazy" decoding="async" alt="Animación del sistema On-Grid con paneles solares, inversor, medidor y red eléctrica. De día la casa consume la energía solar y el excedente se inyecta a la red; con nubes la red completa lo que falta y de noche la casa se alimenta de la red.">
+					</picture>
+				</figure>
+				<figure class="photo">
+					<div class="ph"><img src="images/thumbs/02.jpg" width="449" height="282" loading="lazy" decoding="async" alt="Dos técnicos instalando paneles solares sobre un techo de teja"></div>
+					<figcaption>Instalación de paneles solares en techo</figcaption>
+				</figure>
+			</div>
+			<div class="panel-right">
+				<div class="head">
+					<p class="tag">Con red eléctrica</p>
+					<h3>Sistema On-Grid</h3>
+					<p class="panel-desc">Está diseñado para trabajar en conjunto con la red eléctrica tradicional. Durante el día, la energía solar alimenta directamente los consumos de tu hogar o negocio, y el excedente se puede inyectar a la red, generando ahorros significativos. Es ideal para zonas urbanas con suministro eléctrico estable, y permite reducir la factura de luz mes a mes.</p>
+				</div>
+				<div class="when">
+					<h4>Te conviene si…</h4>
+					<p><strong>Tu casa ya tiene electricidad, pero es muy costosa.</strong> Un sistema On-Grid genera electricidad y te da un porcentaje de ahorro, o incluso el 100 %, en tu factura de luz.</p>
+				</div>
+				<div class="cta-row"><a class="btn btn-primary" href="#cotizar" data-sistema="On-Grid">Cotizar On-Grid<svg class="ico ico-s" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+			</div>
+		</article>
+
+		<!-- Off-Grid -->
+		<article class="panel" id="panel-off-grid" role="tabpanel" aria-labelledby="tab-off-grid">
+			<div class="panel-left">
+				<figure class="media">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="images/animaciones/casa-solar-off-grid-poster.jpg">
+						<source type="image/webp" srcset="images/animaciones/casa-solar-off-grid.webp">
+						<img src="images/animaciones/casa-solar-off-grid-poster.jpg" width="800" height="450" loading="lazy" decoding="async" alt="Animación del sistema Off-Grid, sin conexión a la red eléctrica. De día los paneles alimentan la casa y cargan las baterías; con nubes y de noche la casa funciona con la energía guardada en las baterías.">
+					</picture>
+				</figure>
+				<figure class="photo">
+					<div class="ph"><img src="images/thumbs/03.jpg" width="449" height="282" loading="lazy" decoding="async" alt="Instalación de paneles solares en una zona rural"></div>
+					<figcaption>Instalación solar en zona rural</figcaption>
+				</figure>
+			</div>
+			<div class="panel-right">
+				<div class="head">
+					<p class="tag">Sin red eléctrica</p>
+					<h3>Sistema Off-Grid</h3>
+					<p class="panel-desc">Funciona completamente desconectado de la red eléctrica, utilizando baterías para almacenar la energía generada durante el día y usarla en la noche o en días nublados. Es perfecto para viviendas rurales, fincas, cabañas o lugares donde no hay acceso al servicio eléctrico convencional. Te ofrece autonomía energética total, sin depender de compañías de energía.</p>
+				</div>
+				<div class="when">
+					<h4>Te conviene si…</h4>
+					<p><strong>Tu casa no tiene red eléctrica o se va constantemente.</strong> Si quieres un servicio de electricidad constante y confiable, necesitas baterías (sistema Off-Grid).</p>
+				</div>
+				<div class="cta-row"><a class="btn btn-primary" href="#cotizar" data-sistema="Off-Grid">Cotizar Off-Grid<svg class="ico ico-s" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+			</div>
+		</article>
+
+		<!-- Híbrido -->
+		<article class="panel" id="panel-hibrido" role="tabpanel" aria-labelledby="tab-hibrido">
+			<div class="panel-left">
+				<figure class="media">
+					<picture>
+						<source media="(prefers-reduced-motion: reduce)" srcset="images/animaciones/casa-solar-hibrido-poster.jpg">
+						<source type="image/webp" srcset="images/animaciones/casa-solar-hibrido.webp">
+						<img src="images/animaciones/casa-solar-hibrido-poster.jpg" width="800" height="450" loading="lazy" decoding="async" alt="Animación del sistema híbrido con paneles solares, inversor, batería y red eléctrica. De día la casa usa la energía solar y guarda el excedente en la batería; de noche usa la batería; si se va la luz, la batería mantiene la casa encendida; con nubes y la batería baja, la red completa lo que falta como respaldo.">
+					</picture>
+				</figure>
+				<figure class="photo contain">
+					<div class="ph"><img src="images/thumbs/06.jpg" width="843" height="600" loading="lazy" decoding="async" alt="Equipos de un sistema solar híbrido: inversor, batería y paneles solares"></div>
+					<figcaption>Equipos de un sistema solar híbrido: inversor, batería y paneles solares</figcaption>
+				</figure>
+			</div>
+			<div class="panel-right">
+				<div class="head">
+					<p class="tag">Red eléctrica + baterías</p>
+					<h3>Sistema híbrido</h3>
+					<p class="panel-desc">Combina lo mejor del On-Grid y del Off-Grid. Genera energía solar, la usa en tiempo real, almacena el excedente en baterías, y puede conectarse a la red eléctrica como respaldo. Aporta seguridad ante cortes de luz, permite ahorrar y optimizar el consumo. Es ideal para quienes buscan autonomía, respaldo y reducción de costos al mismo tiempo.</p>
+				</div>
+				<div class="when">
+					<h4>Te conviene si…</h4>
+					<p><strong>Quieres ahorrar y también tener respaldo cuando se va la luz.</strong></p>
+				</div>
+				<div class="cta-row"><a class="btn btn-primary" href="#cotizar" data-sistema="Híbrido">Cotizar sistema híbrido<svg class="ico ico-s" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+			</div>
+		</article>
+
+		<p class="unsure reveal"><span>¿Todavía no sabes cuál te conviene? Te orientamos.</span> <a class="btn btn-ghost btn-sm" href="#cotizar" data-sistema="No sé cuál me conviene">Cuéntanos tu caso</a></p>
+	</div>
+</section>
+
+<!-- ===== Cotizar (único punto de cotización) ===== -->
+<section class="sec sec-navy on-dark" id="cotizar">
+	<span class="alias" id="contact"></span>
+	<div class="wrap q-grid">
+		<div class="reveal">
+			<p class="chip">Cotiza</p>
+			<h2>Cotiza tu sistema solar</h2>
+			<p class="lead">Déjanos tu contacto y el sistema en el que estás interesad@, junto a una breve descripción del tipo de techo o superficie a instalar y la ciudad o municipio desde donde nos escribes, y te atenderemos lo antes posible.</p>
+			<ul class="q-list">
+				<li><svg class="ico ico-s" aria-hidden="true"><use href="#i-check"/></svg>Ciudad o municipio desde donde nos escribes</li>
+				<li><svg class="ico ico-s" aria-hidden="true"><use href="#i-check"/></svg>Descripción del techo o superficie donde se instalaría</li>
+				<li><svg class="ico ico-s" aria-hidden="true"><use href="#i-check"/></svg>El sistema que te interesa (o dinos que no sabes cuál: te orientamos)</li>
+			</ul>
+			<div class="direct">
+				<p>¿Prefieres escribirnos directo?</p>
+				<div class="direct-row">
+					<a class="btn btn-primary btn-sm" href="https://wa.me/573014938903" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>301 493 8903</a>
+					<a class="btn btn-light btn-sm" href="https://www.facebook.com/share/1ER5o82gFC/" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-fb"/></svg>Facebook</a>
+					<a class="btn btn-light btn-sm" href="https://www.instagram.com/eiderinthejob" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg>Instagram</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="form-card reveal">
+			<h3>Cuéntanos tu caso</h3>
+			<form id="form-cotizar" action="#cotizar">
+				<div class="fields">
+					<div class="field"><label for="f-name">Nombre</label><input id="f-name" type="text" name="name" autocomplete="name" required></div>
+					<div class="field"><label for="f-email">Email <small>(opcional)</small></label><input id="f-email" type="email" name="email" autocomplete="email"></div>
+					<div class="field">
+						<label for="f-city">Ciudad o municipio</label>
+						<select id="f-city" name="city" required>
+							<option value="">Elige una opción</option>
+							<option>Bogotá</option>
+							<option>Medellín</option>
+							<option>Bucaramanga</option>
+							<option>Anapoima</option>
+							<option>Girardot</option>
+							<option>Facatativá</option>
+							<option>Otro municipio de Cundinamarca</option>
+							<option>Otra ciudad</option>
+						</select>
+					</div>
+					<div class="field" id="field-system">
+						<label for="f-system">Sistema de interés</label>
+						<select id="f-system" name="system" aria-describedby="hints">
+							<option value="">Elige una opción</option>
+							<option value="No sé cuál me conviene">No sé cuál me conviene</option>
+							<option value="On-Grid">On-Grid</option>
+							<option value="Off-Grid">Off-Grid</option>
+							<option value="Híbrido">Híbrido</option>
+						</select>
+					</div>
+					<div class="field full">
+						<label for="f-msg">Mensaje</label>
+						<textarea id="f-msg" name="message" rows="5" placeholder="Tipo de techo, consumo mensual o equipos que quieres alimentar"></textarea>
 					</div>
 				</div>
-			</section>
+				<div class="hints" id="hints" role="status" aria-live="polite">
+					<p class="hint" data-for="">Cuéntanos la ciudad o municipio y una breve descripción del techo o superficie donde se instalaría.</p>
+					<p class="hint" data-for="No sé cuál me conviene">¿Tu casa ya tiene electricidad pero es muy costosa? ¿No tienes red eléctrica o se va constantemente? ¿Quieres ahorrar y también tener respaldo cuando se va la luz? Cuéntanos tu situación y te orientamos.</p>
+					<p class="hint" data-for="On-Grid"><strong>On-Grid:</strong> lo ideal es tener el consumo eléctrico del mes, que aparece en la factura, o enviarnos la factura.</p>
+					<p class="hint" data-for="Off-Grid"><strong>Off-Grid:</strong> lo ideal es indicar qué equipos necesitas alimentar y por cuánto tiempo. Ej.: 1 televisor de 60&quot; por 12 h o 1 nevera de 180 W por 24 h.</p>
+					<p class="hint" data-for="Híbrido"><strong>Híbrido:</strong> cuéntanos tu consumo del mes (aparece en la factura de luz) y qué equipos quieres mantener funcionando cuando se va la luz.</p>
+				</div>
+				<div class="form-actions"><button class="btn btn-primary" type="submit"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Enviar por WhatsApp</button></div>
+			</form>
+			<p class="form-note">Al enviar se abrirá WhatsApp con tu mensaje listo. Usamos tus datos solo para responder tu solicitud.</p>
+			<noscript><p class="form-note">Para cotizar sin JavaScript, escríbenos directo por WhatsApp.</p><p style="margin-top:14px"><a class="btn btn-primary" href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20solar%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20">301 493 8903</a></p></noscript>
+		</div>
+	</div>
+</section>
 
-		<!-- Footer -->
-			<footer id="footer">
+<!-- ===== Zonas ===== -->
+<section class="sec" id="zonas">
+	<div class="wrap">
+		<header class="sec-head center reveal">
+			<p class="chip">Cobertura</p>
+			<h2>Zonas de atención</h2>
+			<p class="lead">Diseñamos e instalamos sistemas solares para hogares, fincas y negocios en:</p>
+		</header>
+		<div class="zonas">
+			<div class="zona reveal">
+				<span class="pin"><svg class="ico ico-s" aria-hidden="true"><use href="#i-pin"/></svg></span>
+				<h3>Bogotá y Cundinamarca</h3>
+				<p>Bogotá, Anapoima, Girardot, Facatativá y otros municipios de Cundinamarca.</p>
+			</div>
+			<div class="zona reveal">
+				<span class="pin"><svg class="ico ico-s" aria-hidden="true"><use href="#i-pin"/></svg></span>
+				<h3>Antioquia</h3>
+				<p>Medellín. Consúltanos por municipios cercanos.</p>
+			</div>
+			<div class="zona reveal">
+				<span class="pin"><svg class="ico ico-s" aria-hidden="true"><use href="#i-pin"/></svg></span>
+				<h3>Santander</h3>
+				<p>Bucaramanga. Consúltanos por municipios cercanos.</p>
+			</div>
+		</div>
+		<p class="zona-note">¿Tu municipio no aparece? <a href="#cotizar">Escríbenos</a> y te confirmamos si llegamos hasta allá.</p>
+	</div>
+</section>
 
-				<!-- Icons -->
-					<ul class="icons">
-						<li><a href="https://wa.me/573014938903" class="icon brands fa-whatsapp" target="_blank" rel="noopener"><span class="label">WhatsApp</span></a></li>
-						<li><a href="https://www.facebook.com/share/1ER5o82gFC/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="https://www.instagram.com/eiderinthejob" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					</ul>
-				<p class="texto-pequeno">Casa Solar es un emprendimiento independiente, sin afiliación a otras empresas.
-					Trabajamos proyectos solares de forma abierta y colaborativa.</p>
-				<p class="texto-pequeno">Comparte esta página: <a href="https://wa.me/?text=Casa%20Solar%3A%20paneles%20solares%20en%20Bogot%C3%A1%2C%20Medell%C3%ADn%2C%20Bucaramanga%20y%20Cundinamarca%20https%3A%2F%2Feidvargas96.github.io%2Fenergia-solar%2F" target="_blank" rel="noopener">WhatsApp</a> &middot; <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feidvargas96.github.io%2Fenergia-solar%2F" target="_blank" rel="noopener">Facebook</a></p>
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; 2026 Casa Solar</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-					</ul>
+<!-- ===== Preguntas frecuentes ===== -->
+<section class="sec sec-sky" id="preguntas">
+	<div class="wrap faq-grid">
+		<header class="sec-head reveal">
+			<p class="chip">Preguntas frecuentes</p>
+			<h2>Respuestas rápidas</h2>
+			<p class="lead">Lo que más nos preguntan sobre paneles solares y cómo cotizar con Casa Solar.</p>
+		</header>
+		<div class="faq reveal">
+			<details>
+				<summary>¿Qué sistema solar me conviene: On-Grid, Off-Grid o híbrido?</summary>
+				<p>Depende de tu situación. Si tu casa ya tiene electricidad pero la factura es costosa, un sistema <strong>On-Grid</strong> trabaja junto con la red y reduce lo que pagas. Si no tienes red eléctrica o se va constantemente, un sistema <strong>Off-Grid</strong> funciona con baterías, sin depender de la red. Si quieres ahorrar y además tener respaldo cuando se va la luz, el sistema <strong>híbrido</strong> combina ambos. Compáralos en la sección <a href="#sistemas">Sistemas</a>; si no estás segur@, te orientamos.</p>
+			</details>
+			<details>
+				<summary>¿Qué necesito enviar para cotizar paneles solares?</summary>
+				<p>Tu ciudad o municipio, una breve descripción del techo o superficie donde se instalaría y el sistema que te interesa. Para On-Grid, tu consumo mensual (aparece en la factura de luz) o la factura; para Off-Grid, los equipos que quieres alimentar y por cuánto tiempo. Puedes hacerlo desde el <a href="#cotizar">formulario de cotización</a>.</p>
+			</details>
+			<details>
+				<summary>¿Cuánto cuesta un sistema solar para una casa o finca?</summary>
+				<p>Depende de tu consumo y del tipo de sistema, por eso diseñamos cada proyecto según tu consumo y lo cotizamos de forma personalizada. Escríbenos por <a href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20solar%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" target="_blank" rel="noopener">WhatsApp</a> con tus datos y te orientamos.</p>
+			</details>
+			<details>
+				<summary>¿En qué ciudades instalan paneles solares?</summary>
+				<p>Atendemos Bogotá, Medellín, Bucaramanga, Anapoima, Girardot, Facatativá y otros municipios de Cundinamarca. Si tu municipio no aparece, <a href="#cotizar">escríbenos</a> y te confirmamos si llegamos hasta allá.</p>
+			</details>
+			<details>
+				<summary>¿Ofrecen mantenimiento y soporte después de la instalación?</summary>
+				<p>Sí. Hacemos la puesta en marcha y la prueba del sistema, y ofrecemos mantenimiento y soporte postventa.</p>
+			</details>
+		</div>
+	</div>
+</section>
 
-			</footer>
+</main>
 
-		<!-- Botón flotante de WhatsApp -->
-			<a class="wa-flotante" href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20solar%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" target="_blank" rel="noopener" aria-label="Cotizar por WhatsApp">Cotiza por WhatsApp</a>
+<!-- ===== Pie de página ===== -->
+<footer class="ftr on-dark">
+	<div class="wrap">
+		<div class="ftr-grid">
+			<div>
+				<a class="brand" href="#inicio" aria-label="Casa Solar, ir al inicio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372.05 100" aria-hidden="true" focusable="false"><g transform="translate(0 0)"><g transform="scale(0.84) translate(-22 -3.25)"><path fill="#FFC42E" d="M50.79 58.01A20 20 0 1 1 77.21 58.01L69.48 51.5A8.5 8.5 0 0 0 58.52 51.5ZM41.38 26.19L34.02 21.94A3.25 3.25 0 0 0 30.77 27.56L38.13 31.81A3.25 3.25 0 0 0 41.38 26.19ZM52.81 17.13L48.56 9.77A3.25 3.25 0 0 0 42.94 13.02L47.19 20.38A3.25 3.25 0 0 0 52.81 17.13ZM67.25 15L67.25 6.5A3.25 3.25 0 0 0 60.75 6.5L60.75 15A3.25 3.25 0 0 0 67.25 15ZM80.81 20.38L85.06 13.02A3.25 3.25 0 0 0 79.44 9.77L75.19 17.13A3.25 3.25 0 0 0 80.81 20.38ZM89.87 31.81L97.23 27.56A3.25 3.25 0 0 0 93.98 21.94L86.62 26.19A3.25 3.25 0 0 0 89.87 31.81Z"/><path fill="#FFFFFF" fill-rule="evenodd" d="M66.58 54.94L104.58 86.94A4 4 0 0 1 106 90L106 118A4 4 0 0 1 102 122L26 122A4 4 0 0 1 22 118L22 90A4 4 0 0 1 23.42 86.94L61.42 54.94A4 4 0 0 1 66.58 54.94ZM49.35 94.5H59.15A2.6 2.6 0 0 1 61.75 97.1V102.9A2.6 2.6 0 0 1 59.15 105.5H49.35A2.6 2.6 0 0 1 46.75 102.9V97.1A2.6 2.6 0 0 1 49.35 94.5ZM68.85 94.5H78.65A2.6 2.6 0 0 1 81.25 97.1V102.9A2.6 2.6 0 0 1 78.65 105.5H68.85A2.6 2.6 0 0 1 66.25 102.9V97.1A2.6 2.6 0 0 1 68.85 94.5ZM49.35 110H59.15A2.6 2.6 0 0 1 61.75 112.6V118.4A2.6 2.6 0 0 1 59.15 121H49.35A2.6 2.6 0 0 1 46.75 118.4V112.6A2.6 2.6 0 0 1 49.35 110ZM68.85 110H78.65A2.6 2.6 0 0 1 81.25 112.6V118.4A2.6 2.6 0 0 1 78.65 121H68.85A2.6 2.6 0 0 1 66.25 118.4V112.6A2.6 2.6 0 0 1 68.85 110Z"/></g><path fill="#FFFFFF" d="M116.49 100.68C126.8 100.68 134.27 94.36 135.55 84.68H125.29C124.39 89.15 121.19 91.79 116.66 91.79C110.14 91.79 106.46 86.94 106.46 78.93C106.46 70.89 110.17 66.02 116.66 66.02C121.19 66.02 124.42 68.68 125.27 73.18H135.55C134.3 63.5 126.8 57.12 116.49 57.12C104.9 57.12 96.21 65.14 96.21 78.93C96.21 92.61 104.9 100.68 116.49 100.68ZM148.1 100.51C152.32 100.51 155.01 99.04 156.8 95.81H156.91V100H166.43V79.86C166.43 73.27 161.64 69.44 152.95 69.44C144.28 69.44 139.38 73.29 138.96 79.78H148.02C148.22 77.74 149.89 76.44 152.61 76.44C155.18 76.44 156.77 77.66 156.77 79.44V79.58C156.77 81.37 154.82 81.79 149.46 82.24C143.09 82.75 137.85 84.93 137.85 91.65C137.85 97.59 142.13 100.51 148.1 100.51ZM151.08 94.14C148.7 94.14 147.08 93.03 147.08 91.19C147.08 89.24 148.95 88.16 151.56 87.77C153.97 87.37 155.81 87 156.86 86.52V89.24C156.86 92.18 154.33 94.14 151.08 94.14ZM184.37 100.74C192.75 100.74 198.41 96.6 198.41 90.46C198.41 86.01 195.52 83.43 189.38 82.3L183.38 81.2C181.31 80.8 180.15 79.98 180.15 78.73C180.15 77.26 181.62 76.15 184.17 76.15C186.75 76.15 188.61 77.71 188.67 79.81H197.65C197.48 73.44 192.18 69.47 183.83 69.47C175.5 69.47 170.43 73.27 170.43 79.18C170.43 83.91 173.58 86.94 179.47 87.99L184.88 88.96C187.25 89.38 188.5 90.17 188.5 91.48C188.5 92.98 186.92 94.02 184.22 94.02C181.36 94.02 179.64 92.64 179.35 90.43H169.75C170.29 96.8 176.1 100.74 184.37 100.74ZM210.86 100.51C215.08 100.51 217.77 99.04 219.55 95.81H219.67V100H229.18V79.86C229.18 73.27 224.39 69.44 215.7 69.44C207.03 69.44 202.14 73.29 201.71 79.78H210.77C210.97 77.74 212.64 76.44 215.36 76.44C217.94 76.44 219.52 77.66 219.52 79.44V79.58C219.52 81.37 217.57 81.79 212.22 82.24C205.85 82.75 200.61 84.93 200.61 91.65C200.61 97.59 204.88 100.51 210.86 100.51ZM213.83 94.14C211.45 94.14 209.84 93.03 209.84 91.19C209.84 89.24 211.71 88.16 214.31 87.77C216.72 87.37 218.56 87 219.61 86.52V89.24C219.61 92.18 217.09 94.14 213.83 94.14Z"/><path fill="#FFC42E" d="M261.38 100.68C270.96 100.68 277.16 95.7 277.16 88.11C277.16 82.07 273.25 78.42 264.78 76.41L260.22 75.33C254.42 73.95 252.15 72.19 252.15 69.13C252.15 65.31 255.75 62.62 260.85 62.62C266.17 62.62 269.63 65.59 269.94 70.43H276.03C275.77 62.19 270.02 57.12 260.93 57.12C251.87 57.12 245.89 62.02 245.89 69.44C245.89 75.28 249.63 78.82 258.16 80.83L262.77 81.93C268.63 83.32 270.87 85.19 270.87 88.45C270.87 92.55 267.11 95.19 261.38 95.19C255.07 95.19 251.36 91.9 251.33 86.32H245.04C245.04 95.24 251.27 100.68 261.38 100.68ZM294.81 100.68C303.37 100.68 309.12 94.31 309.12 85.1C309.12 75.84 303.37 69.41 294.81 69.41C286.26 69.41 280.48 75.84 280.48 85.1C280.48 94.31 286.26 100.68 294.81 100.68ZM294.81 95.53C289.69 95.53 286.55 91.48 286.55 85.1C286.55 78.67 289.72 74.57 294.81 74.57C299.91 74.57 303.08 78.67 303.08 85.1C303.08 91.45 299.94 95.53 294.81 95.53ZM319.69 57.8H313.72V100H319.69ZM334.86 100.48C340.01 100.48 342.45 98.16 343.69 95.75H343.8V100H349.7V79.5C349.7 73.41 345.19 69.5 337.83 69.5C330.35 69.5 325.51 73.52 325.23 79.21H331.09C331.32 76.47 333.92 74.4 337.74 74.4C341.54 74.4 343.78 76.49 343.78 79.38V79.64C343.78 81.82 341.91 81.76 336.3 82.44C330.21 83.15 324.49 84.62 324.49 91.45C324.49 97.42 328.91 100.48 334.86 100.48ZM336.07 95.67C332.59 95.67 330.44 94.14 330.44 91.56C330.44 88.53 333.38 87.37 336.64 86.89C339.81 86.43 342.98 85.95 343.8 85.3V88.81C343.8 92.5 341.34 95.67 336.07 95.67ZM355.74 100H361.71V82.33C361.71 77.46 364.46 75.16 367.83 75.16C369.22 75.16 370.52 75.36 370.98 75.45V69.87C370.49 69.81 369.7 69.73 368.79 69.73C365 69.73 362.68 71.68 361.57 74.94H361.46V70.09H355.74Z"/></g></svg></a>
+				<p>Casa Solar es un emprendimiento independiente, sin afiliación a otras empresas. Trabajamos proyectos solares de forma abierta y colaborativa.</p>
+			</div>
+			<div>
+				<div class="social">
+					<a href="https://wa.me/573014938903" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg></a>
+					<a href="https://www.facebook.com/share/1ER5o82gFC/" target="_blank" rel="noopener" aria-label="Facebook"><svg class="ico" aria-hidden="true"><use href="#i-fb"/></svg></a>
+					<a href="https://www.instagram.com/eiderinthejob" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg></a>
+				</div>
+				<p>Comparte esta página: <a href="https://wa.me/?text=Casa%20Solar%3A%20paneles%20solares%20en%20Bogot%C3%A1%2C%20Medell%C3%ADn%2C%20Bucaramanga%20y%20Cundinamarca%20https%3A%2F%2Feidvargas96.github.io%2Fenergia-solar%2F" target="_blank" rel="noopener">WhatsApp</a> &middot; <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feidvargas96.github.io%2Fenergia-solar%2F" target="_blank" rel="noopener">Facebook</a></p>
+			</div>
+		</div>
+		<p class="copy">&copy; 2026 Casa Solar</p>
+	</div>
+</footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-<!--///////////////// -->
+<!-- Botón flotante de WhatsApp -->
+<a class="wa" href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20solar%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" target="_blank" rel="noopener" aria-label="Cotizar por WhatsApp"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg><span>Cotiza por WhatsApp</span></a>
+
 <script>
-	(function () {
-		var NUMERO = '573014938903';
-		var form = document.getElementById('form-cotizar');
+(function () {
+	var NUMERO = '573014938903';
+	var d = document;
 
-		// Formulario: arma el mensaje y abre WhatsApp
-		if (form) {
-			form.addEventListener('submit', function (e) {
-				e.preventDefault();
-				var v = function (n) { return (form.elements[n].value || '').trim(); };
-				var lineas = ['Hola, soy ' + v('name') + '. Quiero cotizar un sistema solar con Casa Solar.'];
-				if (v('city'))    lineas.push('Ciudad o municipio: ' + v('city'));
-				if (v('system'))  lineas.push('Sistema de interés: ' + v('system'));
-				if (v('email'))   lineas.push('Email: ' + v('email'));
-				if (v('message')) lineas.push('Mensaje: ' + v('message'));
-				var url = 'https://wa.me/' + NUMERO + '?text=' + encodeURIComponent(lineas.join('\n'));
-				if (window.gtag) { gtag('event', 'generate_lead', { method: 'formulario_whatsapp' }); }
-				if (window.fbq)  { fbq('track', 'Lead'); }
-				var w = window.open(url, '_blank');
-				if (!w) { window.location.href = url; }
-			});
-		}
+	/* Menú en celular */
+	var btn = d.querySelector('.menu-btn'), nav = d.getElementById('menu');
+	if (btn && nav) {
+		var cerrar = function () { nav.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-label', 'Abrir menú'); };
+		btn.addEventListener('click', function () {
+			var abierto = nav.classList.toggle('open');
+			btn.setAttribute('aria-expanded', abierto ? 'true' : 'false');
+			btn.setAttribute('aria-label', abierto ? 'Cerrar menú' : 'Abrir menú');
+		});
+		nav.addEventListener('click', function (e) { if (e.target.closest('a')) cerrar(); });
+		d.addEventListener('keydown', function (e) { if (e.key === 'Escape') cerrar(); });
+	}
 
-		// Mide los clics en cualquier enlace de WhatsApp (solo si instalas Analytics o el Pixel)
-		var enlaces = document.querySelectorAll('a[href^="https://wa.me/57"]');
-		for (var i = 0; i < enlaces.length; i++) {
-			enlaces[i].addEventListener('click', function () {
-				if (window.gtag) { gtag('event', 'click_whatsapp'); }
-				if (window.fbq)  { fbq('track', 'Contact'); }
+	/* Pestañas de sistemas (sin JavaScript se ven los tres, uno debajo del otro) */
+	var tabs = [].slice.call(d.querySelectorAll('[role="tab"]'));
+	var panels = tabs.map(function (t) { return d.getElementById(t.getAttribute('aria-controls')); });
+	var claves = ['on-grid', 'off-grid', 'hibrido'];
+	function mostrar(i, enfocar) {
+		tabs.forEach(function (t, j) {
+			var on = j === i;
+			t.setAttribute('aria-selected', on ? 'true' : 'false');
+			t.tabIndex = on ? 0 : -1;
+			panels[j].hidden = !on;
+		});
+		if (enfocar) tabs[i].focus();
+	}
+	if (tabs.length) {
+		mostrar(0);
+		tabs.forEach(function (t, i) {
+			t.addEventListener('click', function () { mostrar(i); });
+			t.addEventListener('keydown', function (e) {
+				var k = e.key, n = tabs.length, j = null;
+				if (k === 'ArrowRight' || k === 'ArrowDown') j = (i + 1) % n;
+				else if (k === 'ArrowLeft' || k === 'ArrowUp') j = (i - 1 + n) % n;
+				else if (k === 'Home') j = 0;
+				else if (k === 'End') j = n - 1;
+				if (j !== null) { e.preventDefault(); mostrar(j, true); }
 			});
-		}
-	})();
+		});
+		d.querySelectorAll('[data-tab]').forEach(function (a) {
+			a.addEventListener('click', function () { var i = claves.indexOf(a.getAttribute('data-tab')); if (i > -1) mostrar(i); });
+		});
+		var desdeHash = function () {
+			var i = claves.indexOf(location.hash.replace('#', ''));
+			if (i > -1) { mostrar(i); var s = d.getElementById('sistemas'); if (s) s.scrollIntoView(); }
+		};
+		desdeHash();
+		window.addEventListener('hashchange', desdeHash);
+	}
+
+	/* Formulario: sugerencias según el sistema y envío por WhatsApp */
+	var form = d.getElementById('form-cotizar');
+	var hints = [].slice.call(d.querySelectorAll('#hints .hint'));
+	function pistas() {
+		if (!form) return;
+		var v = form.elements.system.value;
+		hints.forEach(function (h) { h.hidden = h.getAttribute('data-for') !== v; });
+	}
+	if (form) {
+		pistas();
+		form.elements.system.addEventListener('change', pistas);
+		d.querySelectorAll('[data-sistema]').forEach(function (a) {
+			a.addEventListener('click', function () {
+				form.elements.system.value = a.getAttribute('data-sistema');
+				pistas();
+				var campo = d.getElementById('field-system');
+				if (campo) { campo.classList.remove('pulse'); void campo.offsetWidth; campo.classList.add('pulse'); setTimeout(function () { campo.classList.remove('pulse'); }, 1800); }
+			});
+		});
+		form.addEventListener('submit', function (e) {
+			e.preventDefault();
+			var v = function (n) { return (form.elements[n].value || '').trim(); };
+			var lineas = ['Hola, soy ' + v('name') + '. Quiero cotizar un sistema solar con Casa Solar.'];
+			if (v('city'))    lineas.push('Ciudad o municipio: ' + v('city'));
+			if (v('system'))  lineas.push('Sistema de interés: ' + v('system'));
+			if (v('email'))   lineas.push('Email: ' + v('email'));
+			if (v('message')) lineas.push('Mensaje: ' + v('message'));
+			var url = 'https://wa.me/' + NUMERO + '?text=' + encodeURIComponent(lineas.join('\n'));
+			if (window.gtag) { gtag('event', 'generate_lead', { method: 'formulario_whatsapp' }); }
+			if (window.fbq)  { fbq('track', 'Lead'); }
+			var w = window.open(url, '_blank');
+			if (!w) { window.location.href = url; }
+		});
+	}
+
+	/* Mide los clics en cualquier enlace de WhatsApp (solo si instalas Analytics o el Pixel) */
+	d.querySelectorAll('a[href^="https://wa.me/57"]').forEach(function (a) {
+		a.addEventListener('click', function () {
+			if (window.gtag) { gtag('event', 'click_whatsapp'); }
+			if (window.fbq)  { fbq('track', 'Contact'); }
+		});
+	});
+
+	/* Aparición suave al hacer scroll */
+	var items = d.querySelectorAll('.reveal');
+	if ('IntersectionObserver' in window) {
+		var io = new IntersectionObserver(function (es) {
+			es.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+		}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+		items.forEach(function (el) { io.observe(el); });
+	} else {
+		items.forEach(function (el) { el.classList.add('in'); });
+	}
+})();
 </script>
-<!--////////////// -->
-	</body>
+</body>
 </html>
