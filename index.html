@@ -200,7 +200,106 @@
 				font-size: 0.85em;
 				margin: 1.5em 0 0 0;
 			}
-		</style>
+		
+				/* Animaciones: cómo funciona cada sistema */
+				.subtitulo {
+					margin: 0 0 0.35em 0;
+					font-size: 1.5em;
+				}
+				.subtitulo-nota {
+					margin: 0 0 2.25em 0;
+				}
+				.sistemas {
+					max-width: 76em;
+					margin: 0 auto 3.5em auto;
+					display: grid;
+					gap: 3.5em;
+				}
+				.sistema {
+					display: grid;
+					grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr);
+					gap: 2.75em;
+					align-items: center;
+					text-align: left;
+				}
+				.sistema.invertido {
+					grid-template-columns: minmax(0, 1fr) minmax(0, 1.9fr);
+				}
+				.sistema.invertido .sistema-medio {
+					order: 2;
+				}
+				.sistema-medio {
+					margin: 0;
+					border-radius: 0.75em;
+					overflow: hidden;
+					background: #0e2c3c;
+					box-shadow: 0 12px 32px rgba(14, 44, 60, 0.25);
+					line-height: 0;
+				}
+				.sistema-medio img {
+					display: block;
+					width: 100%;
+					height: auto;
+				}
+				.sistema-tag {
+					display: inline-block;
+					margin: 0 0 0.9em 0;
+					padding: 0.35em 1em;
+					border-radius: 2em;
+					background: #ffc42e;
+					color: #0e2c3c;
+					font-size: 0.8em;
+					font-weight: 900;
+					letter-spacing: 0.02em;
+				}
+				.sistema-texto h3 {
+					margin: 0 0 0.5em 0;
+					font-size: 1.45em;
+				}
+				.sistema-texto p {
+					margin: 0 0 1.5em 0;
+				}
+				.sistema-texto p.sistema-tag {
+					margin: 0 0 0.9em 0;
+				}
+				.sistema-texto .button {
+					background: #0e2c3c;
+					color: #ffffff;
+					height: auto;
+					line-height: 1.3;
+					padding: 1em 1.6em;
+					white-space: nowrap;
+				}
+				.sistema-texto .button:hover {
+					background: #17435a;
+				}
+				.sistema-texto .button:before {
+					font-family: "Font Awesome 5 Brands";
+					font-weight: 400;
+					font-size: 1.3em;
+					content: "\f232";
+					margin-right: 0.5em;
+					vertical-align: -0.1em;
+				}
+				.galeria-titulo {
+					margin-top: 0.5em;
+				}
+				@media screen and (max-width: 900px) {
+					.sistema,
+					.sistema.invertido {
+						grid-template-columns: minmax(0, 1fr);
+						gap: 1.5em;
+						max-width: 34em;
+						margin: 0 auto;
+					}
+					.sistema.invertido .sistema-medio {
+						order: 0;
+					}
+					.sistemas {
+						gap: 3em;
+					}
+				}
+			</style>
 	</head>
 	<body class="is-preload">
 
@@ -280,7 +379,69 @@
 						<p>Si estás interesad@ en adquirir un sistema de energía solar y no sabes cuál te conviene, te dejamos una breve descripción de los tipos de sistemas:</p>
 					</header>
 
-					<!-- Gallery -->
+					<!-- Animaciones: cómo funciona cada sistema -->
+						<h3 class="subtitulo">Así funciona cada sistema</h3>
+						<p class="subtitulo-nota">Mira cómo se mueve la energía en cada uno a lo largo del día.</p>
+
+						<div class="sistemas">
+
+							<article class="sistema">
+								<figure class="sistema-medio">
+									<picture>
+										<source media="(prefers-reduced-motion: reduce)" srcset="images/animaciones/casa-solar-on-grid-poster.jpg">
+										<source type="image/webp" srcset="images/animaciones/casa-solar-on-grid.webp">
+										<img src="images/animaciones/casa-solar-on-grid-poster.jpg" width="800" height="450" loading="lazy" decoding="async"
+											alt="Animación del sistema On-Grid con paneles solares, inversor, medidor y red eléctrica. De día la casa consume la energía solar y el excedente se inyecta a la red; con nubes la red completa lo que falta y de noche la casa se alimenta de la red." />
+									</picture>
+								</figure>
+								<div class="sistema-texto">
+									<p class="sistema-tag">Con red eléctrica</p>
+									<h3>Sistema On-Grid</h3>
+									<p>Trabaja en conjunto con la red eléctrica. Durante el día la energía solar alimenta los consumos de tu hogar o negocio y el excedente se puede inyectar a la red, generando ahorros. Es ideal para zonas urbanas con suministro eléctrico estable.</p>
+									<a class="button" href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20On-Grid%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" target="_blank" rel="noopener" aria-label="Cotizar un sistema On-Grid por WhatsApp">Cotizar por WhatsApp</a>
+								</div>
+							</article>
+
+							<article class="sistema invertido">
+								<figure class="sistema-medio">
+									<picture>
+										<source media="(prefers-reduced-motion: reduce)" srcset="images/animaciones/casa-solar-off-grid-poster.jpg">
+										<source type="image/webp" srcset="images/animaciones/casa-solar-off-grid.webp">
+										<img src="images/animaciones/casa-solar-off-grid-poster.jpg" width="800" height="450" loading="lazy" decoding="async"
+											alt="Animación del sistema Off-Grid, sin conexión a la red eléctrica. De día los paneles alimentan la casa y cargan las baterías; con nubes y de noche la casa funciona con la energía guardada en las baterías." />
+									</picture>
+								</figure>
+								<div class="sistema-texto">
+									<p class="sistema-tag">Sin red eléctrica</p>
+									<h3>Sistema Off-Grid</h3>
+									<p>Funciona completamente desconectado de la red, con baterías que guardan la energía del día para usarla en la noche o en días nublados. Es perfecto para viviendas rurales, fincas y cabañas donde no hay servicio eléctrico, con autonomía energética total.</p>
+									<a class="button" href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20Off-Grid%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" target="_blank" rel="noopener" aria-label="Cotizar un sistema Off-Grid por WhatsApp">Cotizar por WhatsApp</a>
+								</div>
+							</article>
+
+							<article class="sistema">
+								<figure class="sistema-medio">
+									<picture>
+										<source media="(prefers-reduced-motion: reduce)" srcset="images/animaciones/casa-solar-hibrido-poster.jpg">
+										<source type="image/webp" srcset="images/animaciones/casa-solar-hibrido.webp">
+										<img src="images/animaciones/casa-solar-hibrido-poster.jpg" width="800" height="450" loading="lazy" decoding="async"
+											alt="Animación del sistema híbrido con paneles solares, inversor, batería y red eléctrica. De día la casa usa la energía solar y guarda el excedente en la batería; de noche usa la batería; si se va la luz, la batería mantiene la casa encendida; con nubes y la batería baja, la red completa lo que falta como respaldo." />
+									</picture>
+								</figure>
+								<div class="sistema-texto">
+									<p class="sistema-tag">Red eléctrica + baterías</p>
+									<h3>Sistema híbrido</h3>
+									<p>Combina lo mejor del On-Grid y del Off-Grid: usa la energía solar en tiempo real, almacena el excedente en baterías y puede conectarse a la red como respaldo. Aporta seguridad ante cortes de luz y permite ahorrar.</p>
+									<a class="button" href="https://wa.me/573014938903?text=Hola%2C%20quiero%20cotizar%20un%20sistema%20h%C3%ADbrido%20con%20Casa%20Solar.%20Mi%20ciudad%20o%20municipio%20es%3A%20" target="_blank" rel="noopener" aria-label="Cotizar un sistema híbrido por WhatsApp">Cotizar por WhatsApp</a>
+								</div>
+							</article>
+
+						</div>
+
+						<h3 class="subtitulo galeria-titulo">Fotos y detalle de cada sistema</h3>
+						<p class="subtitulo-nota">Toca una imagen para verla más grande.</p>
+
+						<!-- Gallery -->
 						<div class="gallery">
 							<article class="from-left">
 								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="Sistema On-Grid" alt="Sistema On-Grid: trabaja junto con la red eléctrica, alimenta tu hogar o negocio durante el día e inyecta el excedente a la red para reducir la factura de luz." /></a>
